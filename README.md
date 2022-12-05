@@ -2,7 +2,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/0hundred0/ultima">
-    <img src="/public/ultima_logo.png" alt="Logo" width="80" height="80">
+    <img src="/images/ultima_logo.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Ultima.rest</h3>
