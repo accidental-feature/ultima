@@ -12,6 +12,6 @@ model Quotes {
   quote     String
   character String
   title     String
-  esrb    String
+  esrb      String
   release   Int
 }

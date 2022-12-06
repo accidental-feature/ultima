@@ -1,18 +1,16 @@
 {
   "name": "ultima-rest",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "<!-- PROJECT LOGO --> <br /> <p align=\"center\">   <a href=\"https://github.com/0hundred0/ultima\">     <img src=\"/public/ultima_logo.png\" alt=\"Logo\" width=\"80\" height=\"80\">   </a>",
   "main": "index.js",
   "scripts": {
     "postgres-migrate": "npx prisma migrate dev --name init",
-    "start": "ts-node ./src/server.ts"
+    "start": "npx ts-node src/server.ts"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/0hundred0/ultima-rest.git"
   },
-  "keywords": [],
-  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/0hundred0/ultima-rest/issues"

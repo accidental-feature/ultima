@@ -69,3 +69,5 @@ Copyright © 2022 [K. Richmond](https://0hundred.dev)
 ### Shout Outs
 
 Thank you [Anime-chan](https://anime-chan.vercel.app) for the inspiration! Check them out if you have a chance!
+
+// 1.0.2 Rating changed to Esrb

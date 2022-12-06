@@ -1,23 +1,44 @@
 [
 	{
-		"quote": "A future is not given to you. It is something you must take for yourself.",
-		"character": "Pod 042",
-		"title": "Nier Automata",
-		"esrb": "M",
-		"release": 2017
+		"quote": "You Are Too Weak To Save Anyone. Not Even Yourself.",
+		"character": "Sephiroth",
+		"title": "Final Fantasy VII Remake",
+		"esrb": "T",
+		"release": 2020
 	},
 	{
-		"quote": "I never quite realized... how beautiful this world is.",
-		"character": "A2",
-		"title": "Nier Automata",
-		"esrb": "M",
-		"release": 2017
+		"quote": "Get Help.",
+		"character": "Cloud Strife",
+		"title": "Final Fantasy VII Remake",
+		"esrb": "T",
+		"release": 2020
 	},
 	{
-		"quote": "",
-		"character": "",
-		"title": "",
-		"esrb": "",
-		"release": 2000
+		"quote": "You Owe Me A Pizza.",
+		"character": "Cloud Strife",
+		"title": "Final Fantasy VII Remake",
+		"esrb": "T",
+		"release": 2020
+	},
+	{
+		"quote": "Ex-SOLDIER. I quit.",
+		"character": "Cloud Strife",
+		"title": "Final Fantasy VII Remake",
+		"esrb": "T",
+		"release": 2020
+	},
+	{
+		"quote": "I got muscle, you just can't see it.",
+		"character": "Noctis",
+		"title": "Final Fantasy XV",
+		"esrb": "T",
+		"release": 2016
+	},
+	{
+		"quote": "I am Noctis, Prince of Lucis and King of fishing!",
+		"character": "Noctis",
+		"title": "Final Fantasy XV",
+		"esrb": "T",
+		"release": 2016
 	}
 ]

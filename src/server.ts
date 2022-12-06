@@ -1,9 +1,16 @@
 import { PrismaClient } from '@prisma/client'
+import NewQuotes from '../data/quotes.json';
 
 const prisma = new PrismaClient()
+const addQuotes = async () => {
+	await prisma.quotes.createMany({
+		data: NewQuotes
+	});
+	console.log('Quotes added successfully')
+}
 
 async function main() {
-  // ... you will write your Prisma Client queries here
+	addQuotes();
 }
 
 main()
