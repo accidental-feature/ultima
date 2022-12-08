@@ -1,8 +1,7 @@
 {
   "name": "ultima-rest",
   "version": "1.0.2",
-  "description": "<!-- PROJECT LOGO --> <br /> <p align=\"center\">   <a href=\"https://github.com/0hundred0/ultima\">     <img src=\"/public/ultima_logo.png\" alt=\"Logo\" width=\"80\" height=\"80\">   </a>",
-  "main": "index.js",
+  "description": "The simplified database management for ultima.rest quotes API",
   "scripts": {
     "postgres-migrate": "npx prisma migrate dev --name init",
     "start": "npx ts-node src/server.ts"

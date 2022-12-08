@@ -25,16 +25,16 @@
 
 ### Techstack
 
-- [supabase](https://supabase.com/) - api is written in Koa
-- [Next.js](https://nextjs.org/) - website is created in Next
-- [TailwindCSS](https://tailwindcss.com/) - Tailwind is used for styling
-- [prisma](https://www.prisma.io/) - Database management
+- [supabase](https://supabase.com/)
+- [Next.js](https://nextjs.org/)
+- [TailwindCSS](https://tailwindcss.com/)
+- [prisma](https://www.prisma.io/)
 
 > The frontend of the api is hosted on Vercel and the api is on Supabase.
 > <br/>
 ### About
 
-I started Ultima my last project in 2022 because I one of my favorite aspects of video games is the iconic things the characters say. So, I wanted to contribute to an API with some of my favorite quotes, and as far as I could tell, there weren't any. Hence, Ultima was created.
+I started Ultima my last project in 2022 because I one of my favorite aspects of video games is the iconic things that various characters say. So, I wanted to find an API to contribute to with some of my favorite quotes, and as far as I could tell, there weren't any. Hence, Ultima.rest was created.
 
 <br/>
 
@@ -69,5 +69,3 @@ Copyright © 2022 [K. Richmond](https://0hundred.dev)
 ### Shout Outs
 
 Thank you [Anime-chan](https://anime-chan.vercel.app) for the inspiration! Check them out if you have a chance!
-
-// 1.0.2 Rating changed to Esrb
