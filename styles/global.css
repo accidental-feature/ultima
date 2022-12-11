@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+	background-color: #111827;
+}
+p > a {
+	color: #5cdcba;
+	text-decoration: underline;
+}
+
+.cloud-anim {width: 180px;}
