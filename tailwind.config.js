@@ -23,7 +23,8 @@ module.exports = {
 				'purple': '#74397a',
 				'purple-200': '#663761',
 				'purple-400': '#581455',
-				'purple-500': '#1d082a'
+				'purple-500': '#1d082a',
+				'hundred': '#ea165c'
 			},
 			boxShadow: {
         'md': '0 4px 6px -1px rgb(0 0 0 / 0.2), 0 2px 4px -2px rgb(0 0 0 / 0.2)',

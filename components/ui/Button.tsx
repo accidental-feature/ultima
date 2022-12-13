@@ -9,13 +9,13 @@ type Props = {
 
 const Button = ({ filled, content, link }: Props) => {
 	const btnStyles = filled 
-		? 'bg-mako text-gray-900 hover:brightness-125' 
-		: 'border border-solid border-mako text-gray-900 hover:bg-mako hover:brightness-125'
+		? 'bg-mako' 
+		: 'border border-solid border-mako hover:bg-mako'
 
 	return (
 		link 
 			? <Link href={link}
-				className={`${btnStyles} ${buttonStyle}`}>
+				className={`${btnStyles} ${buttonStyle} hover:brightness-125 text-gray-900`}>
 					{ content }
 			  </Link>
 		: <button type="submit" className={`${btnStyles} ${buttonStyle}`}>

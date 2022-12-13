@@ -11,3 +11,7 @@ p > a {
 }
 
 .cloud-anim {width: 180px;}
+.contributors {
+	display: grid;
+	grid-template-columns: repeat(auto-fit,  minmax(10px, max-content)) 
+}

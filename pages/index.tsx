@@ -4,6 +4,7 @@ import { headerTextStyle, containerStyle, scriptBtnStyle } from '../src/lib/styl
 import { GameData } from '../src/types'
 import { useState } from 'react'
 import Button from '../components/ui/Button'
+import Contributors from '../components/Contributors'
 
 export default function Home() {
 	const [display, setDisplay] = useState(false);
@@ -140,6 +141,7 @@ export default function Home() {
 							<span className="font-medium text-mako">{randomQuote.title}</span> 👾</p>}				
 					</div>
 				</section>
+				<Contributors />
       </Layout>
     </div>
   )

@@ -12,7 +12,7 @@ const Footer = () => {
 				</span>
 				
 				<p>
-					<a className="no-underline mr-1" href="http://0hundred.dev" target="_blank" 
+					<a className="no-underline mr-1 hover:brightness-125" href="http://0hundred.dev" target="_blank" 
 					rel="noopener noreferrer">
 						0hundred0
 					</a> © 2022
