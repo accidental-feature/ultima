@@ -51,7 +51,7 @@ const Layout = ({children, metaInfo}: Props) => {
 				<meta name="msapplication-TileColor" content="#5cdcba" />
 				<meta name="theme-color" content="#ffffff" />
         <meta property="og:type" content={meta.type} />
-        <meta property="og:site_name" content="Animechan" />
+        <meta property="og:site_name" content="Ultima.rest" />
         <meta property="og:description" content={meta.description} />
         <meta property="og:title" content={meta.title} />
         <meta property="og:image" content={meta.image} />
