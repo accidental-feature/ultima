@@ -100,6 +100,7 @@ export default function Home() {
 						</div>
 						
 						<Codeblock>
+
 							{display && randomQuote
 								
 								? <div>
@@ -132,7 +133,7 @@ export default function Home() {
 										</>
 									}
 									</div>
-								: <p>null</p>
+								: <p>{isFetching ? 'Loading...' : 'null'}</p>
 							}
 						</Codeblock>
 
