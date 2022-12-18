@@ -1,30 +1,25 @@
-import { PrismaClient } from '@prisma/client'
-import NewQuotes from '../data/quotes.json';
+import { prismaClient as Prisma } from '../lib/PrismaClient';
+import { 
+	addQuotes, removeQuoteByID, updateQuote, updateQuotes,
+	countAllQuotes, countQuotesByParam
+} from '../lib/dbManager';
 
-// Can export if used across many files
-const prisma = new PrismaClient();
-
-// Add quotes from data/quotes.json (Double check for duplicates)
-const addQuotes = async () => {
-	await prisma.quotes.createMany({
-		data: NewQuotes
-	});
-	const totalQuotesCount = await prisma.quotes.count();
-	const newQuotesCount = NewQuotes.length
-	console.log(`${newQuotesCount} quotes added successfully, ${totalQuotesCount} quotes available.`)
-}
-
+// Uncomment the function needed function
 async function main() {
-	// remove or replace if not adding
-	addQuotes();
+	// addQuotes();
+	// removeQuoteById(1)
+	// updateQuote()
+	// updateQuotes()
+	// countAllQuotes()
+	// countQuotesByParam()
 }
 
 main()
   .then(async () => {
-    await prisma.$disconnect()
+    await Prisma.$disconnect()
   })
   .catch(async (e) => {
     console.error(e)
-    await prisma.$disconnect()
+    await Prisma.$disconnect()
     process.exit(1)
 	})
