@@ -1,107 +1,88 @@
 *This file is still Work in Progress*
-## Contributing
+# Contributing
+<img src="/public/images/sora-idle.gif" alt="Logo" width="90" height="90">
 
 [fork]: https://github.com/0hundred0/ultima/fork
 [pr]: https://github.com/0hundred0/ultima/pulls
 
-Hi there! We're thrilled that you'd like to contribute to this project. Your help is essential to making the app better.
+Hi there! I am thrilled that you'd like to contribute to this project. Your help is essential to making the app better.
 
 ---
-# Quick Start
+## Walkthrough for Contributors
+I am a sucker for a good PR (pull requests). But, if you're thinking of working on a large PR, I recommend opening up an issue first to talk about it! 
 
-We also love PRs (pull requests). If you're thinking of a large PR, we advise opening up an issue first to talk about it, though! Look at the links below if you're not sure how to open a PR.
+<br>
 
-1. [Fork][fork] and clone the repository.
+Before you start get started: 
+- Check the [issues page](https://github.com/0hundred0/ultima/issues) to find open issues to work on
+- Read [general contributions](https://github.com/0hundred0/ultima/blob/main/CONTRIBUTION.md) for overall guidelines
+- Open a new issue if there is something new you want to implement before working on it
+- Once forking run `npm install` to install the necessary packages
+
+After that, you can start coding!
+
+### Quick Start
+
+### UI Updates
+1. [Fork][fork] and clone the __main__ repository.
 2. Install the dependencies: `npm install`.
-3. Create a new branch: `git checkout -b your-branch-name`.
+3. Create a new branch: `git checkout -b feat-FEATURE-NAME`.
 4. Work on your issue/feature
 5. Before committing the changes run `npm build` to check for any errors
 6. Follow [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) for writing commit messages
 7. Push to your fork and [submit a pull request][pr] in the appropriate branch
 8. Pat your self on the back and wait for your pull request to be reviewed for approval by a moderator.
 
----
-# Step-by-Step
+<br>
 
-Before you start making contributions: 
-- Check the [issues page](https://github.com/0hundred0/ultima/issues) to find open issues to work on
-- Read [general contributions](https://github.com/0hundred0/ultima/blob/main/CONTRIBUTION.md) for overall guidelines
-- Open a new issue if there is something new you want to implement before working on it
-- Once forking run `npm install` to install all the needed packages
-
-After that, you can start coding. Here is the workspace layout
+Here is the workspace layout:
 
 - `components` is where all the layout and ui files are.
-- `public` is where you can find the icon and image files.
 - `pages` contains the different page routes and the api folder
+- `public` is where you can find the icon and image files.
+- `src` contains general utilities and library items. Think of it a place for miscellaneous items
 - `styles` contains the global stylesheet with also includes the tailwind imports
-- `.env.example` includes an example of what the supabase urls look like
+- `.env.example` includes an **example** of what the supabase urls look like if the app was created
 - `tsconfig.json` includes the tailwind custom styles and content pointers
 
-All the other files should be left as is unless discussed with a moderator
+All the other folder and files should be left as is unless discussed with a moderator
 
-It is recommended that as you edit the files you have `npm run dev` running in the background
+It is recommended that as you edit the files you have `npm run dev` running in the background.
 Once done editing, if everything works appropriately try running `npm run build`.
 
-## Pull Requests
+---
+### Opening Pull Requests
 
-**Before opening any pull request, check that `npm run build` completes without errors**
+**Before opening any pull request, check that `npm run dev` completes without errors. The missing env variables will cause and error on build.**
 
-If you want to contribute to the project, please use *dev* as the base branch, *feat-FEATNAME* for app enhancements, *dev* is what is coming in the next version update i.e. *v2*.
+Please use the following naming conventions for Pull Requests:
+- *feat-FEATURENAME* for app enhancements
+- *fix-BUGNAME* for bug fixes
+- *addQuotes* for additional quotes
 
-Use *main* branch **ONLY** for critical bug fixes or if you have moderator approval.
-
-Next, create the **Pull Request** to the *dev* branch. If it's a critical bug fix, use *main*.
-
+Next, create the **Pull Request** to the *main* branch.
 ---
 
 ## Branches
-### *dev*
-This branch is the main development branch
-
-This branch should always build. Sometimes it can be necessary to break this rule. This is why it is **should** and not **must**.
- 
-### *onewing*
-This branch is for testing the version 2 before being released officially.
-
-This branch is the one used to make PR to *main*, so this branch **MUST** build.
-
-### *migrate*
-This branch is the quotes api example branch. If you are looking to add additional quotes please wait as *this process is a work in progress* 
 ### *main*
 This is the production branch.
-
-**This must be used for PR only for critical bug fixes** and always **MUST** build.
-
-Changes to README.md or other markdown files are not priorities. So for these changes, use *dev* or *staging*, and they will be implemented in the next release.
-
-### *every other branch*
-You can create any branch you want to push & any kind of commits.
-
-There are no rules in the CI for all the other branches.
+**This should be used for PR** and always **MUST** build.
+### [*migrate*](https://github.com/0hundred0/ultima/tree/migrate)
+This branch is the quotes api example branch. If you are looking to add additional quotes please visit the migrate branch.
 
 Once ready, if you need to implement the product.**Follow the rules below.**
-
-# Backward compatibility
-
-Remember to keep the backward compatibility with previous versions. If a change breaks this rule **it must** be discussed.
-
-You can mark them as obsolete old methods, but they **must** work too. **Deprecating is not breaking**.
-
 ---
 
-# PR Tips
-
-Here are a few things you can do that will increase the likelihood of your pull request being accepted:
+## Additional PR Tips 
 
 - Keep your changes as focused as possible. If there are multiple changes you would like to make that are not dependent upon each other, consider submitting them as separate pull requests.
 - Follow [Conventional commits](https://www.conventionalcommits.org/en/v1.0.0/).
 
-Work in Progress pull requests are also welcome to get feedback early on, or if there is something blocked you. (just mark them as draft)
+**Work in Progress** pull requests are also welcome to get feedback early on, or if there is something blocked you. (just mark them as a draft)
 
 ---
 
-# Community
+## Join the Community
 
 Feel free to join the Discord community to talk about the project or just to chat. Collaborating is easier if we all talk directly.
 
