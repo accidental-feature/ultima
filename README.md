@@ -2,7 +2,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/0hundred0/ultima">
-    <img src="/public/images/ultima_logo.png" alt="Logo" width="80" height="80">
+    <img src="/public/images/ultima_logo.png" alt="Logo" width="90" height="90">
   </a>
 
   <h3 align="center">Ultima.rest</h3>
@@ -67,5 +67,7 @@ Join the [Discord](https://discord.gg/Qs7qJY3z)
 Copyright © 2023 [K. Richmond](https://0hundred.dev)
 
 ### Shout Outs
+
+Thank you to anyone who contributes to and or uses Ultima!
 
 Thank you [Anime-chan](https://anime-chan.vercel.app) for the inspiration! Check them out if you have a chance!
