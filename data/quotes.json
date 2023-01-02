@@ -138,5 +138,26 @@
 		"title": "Final Fantasy XV",
 		"esrb": "T",
 		"release": 2016
+	},
+	{
+		"quote": "A sword wields no strength unless the hands that holds it has courage.",
+		"character": "The Hero's Shade",
+		"title": "Legend of Zelda: Twilight Princess",
+		"esrb": "T",
+		"release": 2006
+	},
+	{
+		"quote": "I used to be an adventurer like you, until I took an arrow to the knee.",
+		"character": "Town Guard",
+		"title": "Elder Scrolls 5: Skyrim",
+		"esrb": "M",
+		"release": 2011
+	},
+	{
+		"quote": "Even the good leaders make poor decisions, its the best leaders that take responsibility for them.",
+		"character": "Kratos",
+		"title": "God of War",
+		"esrb": "M",
+		"release": 2018
 	}
 ]
