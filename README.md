@@ -64,7 +64,7 @@ Join the [Discord](https://discord.gg/Qs7qJY3z)
 
 ### Copyright
 
-Copyright © 2022 [K. Richmond](https://0hundred.dev)
+Copyright © 2023 [K. Richmond](https://0hundred.dev)
 
 ### Shout Outs
 

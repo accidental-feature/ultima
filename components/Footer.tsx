@@ -7,15 +7,15 @@ const Footer = () => {
 			text-gray-100
 		">
 			<div className="flex flex-col items-center justify-center">
-				<span className="cloud-anim ml-1.5 inline relative">
-					<Image src='/images/kh-cloud-7.gif' alt='cloud kh pixel attack' width={180} height={66} />
+				<span className="sora-anim ml-1.5 inline relative">
+					<Image src='/images/sora-limit.gif' alt='sora khiii pixel limit attack' width={238} height={128} />
 				</span>
 				
 				<p>
 					<a className="no-underline mr-1 hover:brightness-125" href="http://0hundred.dev" target="_blank" 
 					rel="noopener noreferrer">
 						0hundred0
-					</a> © 2022
+					</a> © 2023
 				</p>
 			</div>
 		</footer>
