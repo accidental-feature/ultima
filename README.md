@@ -62,11 +62,11 @@ Want to help build Ultima? Join the [Discord](https://discord.gg/Qs7qJY3z) to ge
 #### Adding New Quotes
 - The quote schema is as follows: 
 ```
-	quote: 'string' // The quote. We suggest no more than two sentences.
-	character: 'string', // Character name as it appears in game
-	title: 'string', // Game title without special symbols e.g. Crisis Final Fantasy VII
-	esrb: 'string', // E, E10, T, M, A, or RP
-	release: 'number'  // Year of Release
+quote: 'string' // The quote. We suggest no more than two sentences.
+character: 'string', // Character name as it appears in game
+title: 'string', // Game title without special symbols e.g. Crisis Final Fantasy VII
+esrb: 'string', // E, E10, T, M, A, or RP
+release: 'number'  // Year of Release
 ```
 - Copy the data [template](./data/template.json) to paste into the [quotes.json](./data/quotes.json) making as many copies as needed.
 - Once you've added your quotes and before you submit a push request make sure the template is not altered.
