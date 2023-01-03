@@ -1,160 +1,20 @@
 [
 	{
-		"quote": ".....",
-		"character": "Goldmask",
-		"title": "Elden Ring",
-		"esrb": "M",
-		"release": 2022
-	},
-	{
-		"quote": "The fallen leaves tell a story. Of how a tarnished became Elden Lord.",
-		"character": "Narrator",
-		"title": "Elden Ring",
-		"esrb": "M",
-		"release": 2022
-	},
-	{
-		"quote": "Well then, shall we? My dear consort eternal.",
-		"character": "Ranni",
-		"title": "Elden Ring",
-		"esrb": "M",
-		"release": 2022
-	},
-	{
-		"quote": "I have given thee courtesy enough. Now I fight as Hoarah Loux, Warrior!",
-		"character": "Hoarah Loux",
-		"title": "Elden Ring",
-		"esrb": "M",
-		"release": 2022
-	},
-	{
-		"quote": "I am Malenia, Blade of Miquella, and I have never known defeat.",
-		"character": "Malenia",
-		"title": "Elden Ring",
-		"esrb": "M",
-		"release": 2022
-	},
-	{
-		"quote": "Writing memoirs? Don't forget the hyphen between Spider and Man.",
-		"character": "Spider-man",
-		"title": "Spider-man",
-		"esrb": "M",
-		"release": 2018
-	},
-	{
-		"quote": "The movies led me to believe all superheroes were billionaire playboys. Why movies? Why do you hate me?",
-		"character": "Spider-man",
-		"title": "Spider-man",
-		"esrb": "M",
-		"release": 2018
-	},
-	{
-		"quote": "My death would have meant something.",
-		"character": "Ellie",
-		"title": "The Last of Us Part II",
-		"esrb": "M",
-		"release": 2020
-	},
-	{
-		"quote": "What did the green grape say to the purple grape? Breathe, you idiot!",
-		"character": "Ellie",
-		"title": "The Last of Us",
-		"esrb": "M",
-		"release": 2020
-	},
-	{
-		"quote": "I'll say something really teary-eyed for the funeral like.. HOW AM I GONNA GET CHANGED BACK NOW!?",
-		"character": "Daxter",
-		"title": "Jak and Daxter The Precursor Legacy",
-		"esrb": "T",
-		"release": 2001
-	},
-	{
-		"quote": "Don't step into the light, Jak. DON'T STEP INTO THE LIGHT!!!",
-		"character": "Daxter",
-		"title": "Jak and Daxter The Precursor Legacy",
-		"esrb": "T",
-		"release": 2001
-	},
-	{
-		"quote": "While you're down there umm... could you rub my feet?",
-		"character": "Daxter",
-		"title": "Jak and Daxter The Precursor Legacy",
-		"esrb": "T",
-		"release": 2001
-	},
-	{
-		"quote": "Hey baby, what say you and I go cruisin'?",
-		"character": "Daxter",
-		"title": "Jak and Daxter The Precursor Legacy",
-		"esrb": "T",
-		"release": 2001
-	},
-	{
-		"quote": "Stay fuzzy... save the world... choices.",
-		"character": "Daxter",
-		"title": "Jak and Daxter",
-		"esrb": "T",
-		"release": 2001
-	},
-	{
-		"quote": "Have you tried attacking him with your melodrama? 'Cause it's killing me!",
-		"character": "Daxter",
-		"title": "Jak and Daxter",
-		"esrb": "T",
-		"release": 2001
-	},
-	{
-		"quote": "Die now, or help you, and die later. It's a tough call, but you know what? I'll take die now.",
-		"character": "Nathan Drake",
-		"title": "Uncharted",
-		"esrb": "T",
-		"release": 2007
-	},
-	{
-		"quote": "You really think Francis Drake came all the way up here, huh? We're an awful long way from England.",
-		"character": "Victor Sullivan",
-		"title": "Uncharted",
-		"esrb": "T",
-		"release": 2007
-	},
-	{
-		"quote": "But...I want to know what love is...now!",
-		"character": "Terra",
-		"title": "Final Fantasy VI",
-		"esrb": "T",
-		"release": 1994
-	},
-	{
-		"quote": "Light and Darkness... One cannot exist without the other.",
-		"character": "Warrior of Darkness",
-		"title": "Final Fantasy III",
-		"esrb": "T",
-		"release": 1990
-	},
-	{
-		"quote": "CAW kids, it's Kenny Crow! Come on down to the Crow's Nest for a mouthful of happiness!",
-		"character": "Kenny Crow",
-		"title": "Final Fantasy XV",
-		"esrb": "T",
-		"release": 2016
-	},
-	{
 		"quote": "A sword wields no strength unless the hands that holds it has courage.",
 		"character": "The Hero's Shade",
-		"title": "Legend of Zelda: Twilight Princess",
+		"title": "Legend of Zelda Twilight Princess",
 		"esrb": "T",
 		"release": 2006
 	},
 	{
 		"quote": "I used to be an adventurer like you, until I took an arrow to the knee.",
 		"character": "Town Guard",
-		"title": "Elder Scrolls 5: Skyrim",
+		"title": "Elder Scrolls 5 Skyrim",
 		"esrb": "M",
 		"release": 2011
 	},
 	{
-		"quote": "Even the good leaders make poor decisions, its the best leaders that take responsibility for them.",
+		"quote": "Even the good leaders make poor decisions, it's the best leaders that take responsibility for them.",
 		"character": "Kratos",
 		"title": "God of War",
 		"esrb": "M",
