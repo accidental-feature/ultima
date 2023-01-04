@@ -95,4 +95,4 @@ Feel free to join the Discord community to talk about the project or just to cha
 
 ---
 
-Thank you to all Ultima contributors!
+Thank you to all Ultima-contributors!
