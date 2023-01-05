@@ -5,12 +5,13 @@
 <h1 align='center'>Contributing to Ultima</h1>
 
 <p align="center">
-	<img src="/public/images/sora-idle.gif" alt="Logo" width="90" height="90">
-	
-	<br>
-	
+	<img src="/public/images/sora-idle.gif" alt="Logo" width="90" height="90">	
+</p>
+
+<p align="center">
 	Hi there! I am thrilled that you'd like to contribute to this project. Your help is essential to making the app better.
 </p>
+
 
 ---
 <h2 align='center'>Note to Potential Contributors</h2>
@@ -83,7 +84,7 @@ This branch is the quotes api example branch. If you are looking to add addition
 
 Feel free to join the Discord community to talk about the project or just to chat. Collaborating is easier if we all talk directly.
 
-[![Discord](/public/icons/discord-icon.svg)](https://discord.gg/mPgVbGPw)
+[Discord](https://discord.gg/mPgVbGPw)
 
 ---
 
