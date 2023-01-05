@@ -6,6 +6,9 @@
 
 <p align="center">
 	<img src="/public/images/sora-idle.gif" alt="Logo" width="90" height="90">
+	
+	<br>
+	
 	Hi there! I am thrilled that you'd like to contribute to this project. Your help is essential to making the app better.
 </p>
 
