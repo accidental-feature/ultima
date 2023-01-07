@@ -1,23 +1,170 @@
 [
 	{
-		"quote": "A sword wields no strength unless the hands that holds it has courage.",
-		"character": "The Hero's Shade",
-		"title": "Legend of Zelda Twilight Princess",
-		"esrb": "T",
-		"release": 2006
+		"quote": "A bit of advice, try using knives next time. Works better for close encounters.",
+		"character": "Leon Kennedy",
+		"title": "Resident Evil 4",
+		"esrb": "M",
+		"release": 2005
 	},
 	{
-		"quote": "I used to be an adventurer like you, until I took an arrow to the knee.",
-		"character": "Town Guard",
-		"title": "Elder Scrolls V Skyrim",
+		"quote": "I don't ever remember being a part of your crappy script.",
+		"character": "Leon Kennedy",
+		"title": "Resident Evil 4",
 		"esrb": "M",
-		"release": 2011
+		"release": 2005
 	},
 	{
-		"quote": "Even the good leaders make poor decisions, it's the best leaders that take responsibility for them.",
-		"character": "Kratos",
-		"title": "God of War",
+		"quote": "I knew you'd be fine if you landed on your butt.",
+		"character": "Leon Kennedy",
+		"title": "Resident Evil 4",
 		"esrb": "M",
-		"release": 2018
+		"release": 2005
+	},
+	{
+		"quote": "All spoiled thanks to your interruption, why don't you do us all a favor and leave before the audience gets pissed off?",
+		"character": "Leon Kennedy",
+		"title": "Resident Evil 4",
+		"esrb": "M",
+		"release": 2005
+	},
+	{
+		"quote": "Hunnigan. I need you to fake our deaths.",
+		"character": "Leon Kennedy",
+		"title": "Resident Evil 6",
+		"esrb": "M",
+		"release": 2012
+	},
+	{
+		"quote": "And I lost over seventy-thousand people, including the President, because of Simmons!",
+		"character": "Leon Kennedy",
+		"title": "Resident Evil 6",
+		"esrb": "M",
+		"release": 2012
+	},
+	{
+		"quote": "Well get used to it. It's either them or us... and they don't hesitate.",
+		"character": "Leon Kennedy",
+		"title": "Resident Evil 6",
+		"esrb": "M",
+		"release": 2012
+	},
+	{
+		"quote": "That's our cue to get the hell out of here.",
+		"character": "Leon Kennedy",
+		"title": "Resident Evil 6",
+		"esrb": "M",
+		"release": 2012
+	},
+	{
+		"quote": "So what's so special about this church? You have some sins to confess?",
+		"character": "Leon Kennedy",
+		"title": "Resident Evil 6",
+		"esrb": "M",
+		"release": 2012
+	},
+	{
+		"quote": "Who does he think we are, exterminators?",
+		"character": "Leon Kennedy",
+		"title": "Resident Evil 6",
+		"esrb": "M",
+		"release": 2012
+	},
+	{
+		"quote": "I could see why killing the President is good for the country!",
+		"character": "Leon Kennedy",
+		"title": "Resident Evil 6",
+		"esrb": "M",
+		"release": 2012
+	},
+	{
+		"quote": "Hope you got friends on the other side, 'cause no one's gonna miss you here.",
+		"character": "Leon Kennedy",
+		"title": "Resident Evil 6",
+		"esrb": "M",
+		"release": 2012
+	},
+	{
+		"quote": "A lightning rod! If he absorbed that he'd be in for a shock.",
+		"character": "Leon Kennedy",
+		"title": "Resident Evil 6",
+		"esrb": "M",
+		"release": 2012
+	},
+	{
+		"quote": "The president would have done the same.",
+		"character": "Leon Kennedy",
+		"title": "Resident Evil 6",
+		"esrb": "M",
+		"release": 2012
+	},
+	{
+		"quote": "Oh, so gauche. What do you care for bread and circuses? The manthing's suffering is assured, regardless.",
+		"character": "Alcina Dimitrescu",
+		"title": "Resident Evil Village",
+		"esrb": "M",
+		"release": 2021
+	},
+	{
+		"quote": "Quiet now, child! Adults are talking.",
+		"character": "Alcina Dimitrescu",
+		"title": "Resident Evil Village",
+		"esrb": "M",
+		"release": 2021
+	},
+	{
+		"quote": "Hm. Starting to go a little stale.",
+		"character": "Alcina Dimitrescu",
+		"title": "Resident Evil Village",
+		"esrb": "M",
+		"release": 2021
+	},
+	{
+		"quote": "Rest while you can, because I will hunt you, and I will break you!",
+		"character": "Alcina Dimitrescu",
+		"title": "Resident Evil Village",
+		"esrb": "M",
+		"release": 2021
+	},
+	{
+		"quote": "Like I'd let you get away. You'll be sliced to ribbons—before you ever see that child!",
+		"character": "Alcina Dimitrescu",
+		"title": "Resident Evil Village",
+		"esrb": "M",
+		"release": 2021
+	},
+	{
+		"quote": "Running will get you nowhere!",
+		"character": "Alcina Dimitrescu",
+		"title": "Resident Evil Village",
+		"esrb": "M",
+		"release": 2021
+	},
+	{
+		"quote": "The entire bloodline of House Dimitrescu is done in?! by the likes of you?",
+		"character": "Alcina Dimitrescu",
+		"title": "Resident Evil Village",
+		"esrb": "M",
+		"release": 2021
+	},
+	{
+		"quote": "Ah, such a nimble little mouse.",
+		"character": "Alcina Dimitrescu",
+		"title": "Resident Evil Village",
+		"esrb": "M",
+		"release": 2021
+	},
+	{
+		"quote": "Exactly how much do you plan on annoying me?",
+		"character": "Alcina Dimitrescu",
+		"title": "Resident Evil Village",
+		"esrb": "M",
+		"release": 2021
+	},
+	{
+		"quote": "Shall I drink your blood fresh, or slice your neck and let it spill out first?",
+		"character": "Alcina Dimitrescu",
+		"title": "Resident Evil Village",
+		"esrb": "M",
+		"release": 2021
 	}
 ]
