@@ -8,32 +8,32 @@ const FetchExample = ({head, link, id, mb, multiple}:
 			<Codeblock>
 				<div>
 					<span className="text-mako">fetch</span>
-					<span className="text-pink">{`("${link}")`}</span>
+					<span className="text-gold">{`("${link}")`}</span>
 				</div>
 
 				<div className="ml-4">
-					<span className="text-mako">.then</span><span className="text-pink">(</span>
+					<span className="text-mako">.then</span><span className="text-gold">(</span>
 					<span>
 						response {'=>'} response.<span className="text-mako">json</span>
-						<span className="text-pink">()</span>
+						<span className="text-gold">()</span>
 					</span>
-					<span className="text-pink">)</span>
+					<span className="text-gold">)</span>
 				</div>
 
 				<div className="ml-4">
 					<span className="text-mako">.then</span>
-					<span className="text-pink">(</span>
+					<span className="text-gold">(</span>
 					
 					<span>
-						quote {'=>'} <span className="text-gold">console.</span>
+						quote {'=>'} <span className="text-cloud-kh">console.</span>
 					</span>
 					
 					<span className="text-mako">log</span>
-					<span className="text-pink">(</span>
+					<span className="text-gold">(</span>
 					<span>quote</span>
-					<span className="text-pink">)</span>
+					<span className="text-gold">)</span>
 					
-					<span className="text-pink">)</span>
+					<span className="text-gold">)</span>
 				</div>
 			</Codeblock>
 			
@@ -56,27 +56,27 @@ const FetchExample = ({head, link, id, mb, multiple}:
 					</p>
 					
 					<p className={`${multiple ? 'ml-8' : 'ml-4'}`}>
-						<span className="text-mako">id:</span><span className="text-pink">{" ...,"}</span>
+						<span className="text-mako">id:</span><span className="text-gold">{" ...,"}</span>
 					</p>
 
 					<p className={`${multiple ? 'ml-8' : 'ml-4'}`}>
-						<span className="text-mako">quote:</span><span className="text-pink">{` "...",`}</span>
+						<span className="text-mako">quote:</span><span className="text-gold">{` "...",`}</span>
 					</p>
 
 					<p className={`${multiple ? 'ml-8' : 'ml-4'}`}>
-						<span className="text-mako">character:</span><span className="text-pink">{` "...",`}</span>
+						<span className="text-mako">character:</span><span className="text-gold">{` "...",`}</span>
 					</p>
 
 					<p className={`${multiple ? 'ml-8' : 'ml-4'}`}>
-						<span className="text-mako">title:</span><span className="text-pink">{` "..."`}</span>
+						<span className="text-mako">title:</span><span className="text-gold">{` "..."`}</span>
 					</p>
 
 					<p className={`${multiple ? 'ml-8' : 'ml-4'}`}>
-						<span className="text-mako">esrb:</span><span className="text-pink">{` "...",`}</span>
+						<span className="text-mako">esrb:</span><span className="text-gold">{` "...",`}</span>
 					</p>
 					
 					<p className={`${multiple ? 'ml-8' : 'ml-4'}`}>
-						<span className="text-mako">release:</span><span className="text-pink">{` ...,`}</span>
+						<span className="text-mako">release:</span><span className="text-gold">{` ...,`}</span>
 					</p>
 					{multiple 
 						? <p>
