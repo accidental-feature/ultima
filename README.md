@@ -25,7 +25,7 @@
 
 ### Techstack
 
-- [supabase](https://supabase.com/) - api is written in Koa
+- [supabase](https://supabase.com/) - api is written with Supabase
 - [Next.js](https://nextjs.org/) - website is created in Next
 - [TailwindCSS](https://tailwindcss.com/) - Tailwind is used for styling
 - [prisma](https://www.prisma.io/) - Database management
