@@ -34,7 +34,7 @@
 > <br/>
 ### About
 
-I started Ultima my last project in 2022 because I one of my favorite aspects of video games is the iconic things the characters say. So, I wanted to contribute to an API with some of my favorite quotes, and as far as I could tell, there weren't any. Hence, Ultima was created.
+I started Ultima as my last project in 2022 because one of my favorite aspects of video games are the iconic things that the characters say. So, I wanted to contribute to an API with some of my favorite quotes, and as far as I could tell, there weren't any. Hence, Ultima was created.
 
 <br/>
 
