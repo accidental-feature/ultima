@@ -1,4 +1,3 @@
-import Head from "next/head";
 import Layout from "../components/Layout";
 import FetchExample from "../components/FetchExample";
 import { headerTextStyle } from "../src/lib/stylesLib";
@@ -7,7 +6,7 @@ const docs = () => {
 	const metaInfo = {
 		title: 'Ultima - Docs',
 		description: 'Current endpoints for Ultima API',
-		image: '/images/docs.png'
+		image: '/images/ultima_logo.png'
 	}
 	return (
 	<div>
