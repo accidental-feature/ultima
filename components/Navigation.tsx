@@ -61,8 +61,15 @@ const Navigation = () => {
 							</a>
 						</li>
 
-						<li className="mt-1 5">
-							
+						<li className="mt-1.5">
+							<Link 
+							className="no-underline px-3 py-2 flex 
+								items-center text-sm font-bold leading-snug 
+								cursor-pointer hover:opacity-75" 
+							href='/contact'
+							>
+								Contact Us
+							</Link>
 						</li>
 					</ul>
 				</nav>
