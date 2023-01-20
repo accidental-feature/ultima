@@ -1,8 +1,8 @@
-import Layout from "../components/Layout";
-import FetchExample from "../components/FetchExample";
-import { headerTextStyle } from "../src/lib/stylesLib";
+import Layout from "../components/layout/Layout";
+import FetchExample from "../components/ui/FetchExample";
 import { useRef } from "react";
-
+import Link from "next/link";
+import { containerBaseStyles, headerTextStyle, sectionStyles } from "../styles/tailwind";
 const docs = () => {
 	const metaInfo = {
 		title: 'Ultima - Docs',
@@ -55,7 +55,7 @@ const docs = () => {
 	return (
 	<div>
 			<Layout metaInfo={metaInfo}>
-				<div className="container relative lg:mx-auto px-3 max-w-4xl py-10 mt-10">
+				<div className={`${sectionStyles}`}>
 					<header className={`pb-10 border-b border-mako`}>
 						<h1 className={headerTextStyle}>Docs</h1>
 						<p className='my-5 text-lg'>The examples below utilize the <span className='font-bold'>Fetch API</span> but feel free
@@ -66,8 +66,8 @@ const docs = () => {
 							<h2 className="text-2xl font-bold mb-3">Important Notes</h2>
 							<ul className="list-disc list-inside text-base lg:text-lg">
 								<li>Default rate limit is 100 per hour</li>
-								<li>Additional games or characters can be requested {''}
-									<a className="text-mako underline hover:opacity-80" href="https://github.com/0hundred0/ultima">here</a>
+								<li>Specific games or characters can be requested {''}
+									<Link className="text-mako underline hover:opacity-80" href="/contact">here</Link>
 								</li>
 								<li>See how many quotes are available with {''}
 									<span className="font-bold">{'"/api/available/"'}</span> route with params i.e. {''}
@@ -127,7 +127,7 @@ const docs = () => {
 							<FetchExample 
 								head={'Get Random Quote'} 
 								id='random-quote' link='https://ultima.rest/api/quote/random' 
-								mb={'mb-40'}
+								mb={'mb-28 sm:mb-32'}
 							/>
 						</div>
 
@@ -135,7 +135,7 @@ const docs = () => {
 							<FetchExample 
 								head={'Get Random Quote by Character'} 
 								id='random-quote-char' link='https://ultima.rest/api/quote/character?name=kratos' 
-								mb={'mb-40'} 
+								mb={'mb-28 sm:mb-32'} 
 							/>
 						</div>
 
@@ -143,7 +143,7 @@ const docs = () => {
 							<FetchExample 
 								head={'Get Random Quote by Game'} 
 								id='random-quote-title' link='https://ultima.rest/api/quote/game?title=nier+automata' 
-								mb={'mb-40'} 
+								mb={'mb-28 sm:mb-32'} 
 							/>
 						</div>
 
@@ -151,7 +151,7 @@ const docs = () => {
 							<FetchExample 
 								head={'Get 5 Random Quotes'} 
 								id='random-quotes' link='https://ultima.rest/api/quote/random' 
-								mb={'mb-40'} multiple={true}
+								mb={'mb-28 sm:mb-32'} multiple={true}
 							/>
 						</div>
 
@@ -159,7 +159,7 @@ const docs = () => {
 							<FetchExample 
 								head={'Get 5 Random Quotes by Characters'} 
 								id='random-quotes-char' link='https://ultima.rest/api/quotes/character?name=sephiroth' 
-								mb={'mb-40'} multiple={true}
+								mb={'mb-28 sm:mb-32'} multiple={true}
 							/>
 						</div>
 						

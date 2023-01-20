@@ -15,6 +15,7 @@
 
 # production
 /build
+_up_next.txt
 
 # misc
 .DS_Store

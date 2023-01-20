@@ -1,5 +1,5 @@
-import { headerTextStyle } from "../src/lib/stylesLib";
-import Contributor from "./ui/Contributor";
+import { headerTextStyle } from "../../src/lib/stylesLib";
+import Contributor from "./Contributor";
 
 const Contributors = () => {
 	return (

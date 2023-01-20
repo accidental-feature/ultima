@@ -1,5 +1,4 @@
-import Layout from "../components/Layout";
-import { headerTextStyle } from "../src/lib/stylesLib";
+import Layout from "../components/layout/Layout";
 import emailjs from "@emailjs/browser";
 import RequestForm from "../components/ui/RequestForm";
 import { useEffect } from "react";

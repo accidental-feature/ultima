@@ -1,10 +1,14 @@
-import Layout from '../components/Layout'
+import { useState, useRef } from 'react'
+
+import Layout from '../components/layout/Layout'
 import Codeblock from '../components/ui/Codeblock'
-import { headerTextStyle, containerStyle, scriptBtnStyle, buttonStyle } from '../src/lib/stylesLib'
-import { GameData } from '../src/types'
-import { useState, useRef, useLayoutEffect } from 'react'
+import { GameData } from '../src/lib/types'
 import Button from '../components/ui/Button'
-import Contributors from '../components/Contributors'
+import Contributors from '../components/contributors/Contributors'
+import { 
+	headerStyles, headerTextStyle, khButtonStyles, sectionStyles, linkBaseStyles
+} from '../styles/tailwind'
+
 
 export default function Home() {
 	const [display, setDisplay] = useState(false);
@@ -12,7 +16,7 @@ export default function Home() {
 	const [randomQuote, setRandomQuote] = useState<GameData | null>(null);
 	const scrollToRef = useRef<HTMLDivElement>(null);
 
-	const supa = <a href="http://supabase.com" target="_blank" rel="noopener noreferrer">Supabase</a>
+	const supa = <a href="http://supabase.com" className={`${linkBaseStyles} text-mako`} target="_blank" rel="noopener noreferrer">Supabase</a>
 
 	const handleClick = async (e: React.MouseEvent<HTMLButtonElement>) => {
 		e.preventDefault();
@@ -35,11 +39,7 @@ export default function Home() {
     <div>
 
       <Layout>
-				<header 
-				className="container relative max-w-4xl 
-					px-2 pt-20 pb-10 mt-20 mx-auto
-					text-center"
-				>
+				<header className={`${headerStyles}`}>
 					<h1 
 					className="font-bold drop-shadow-lg lg:text-7xl text-6xl font-display">
 						Ultima
@@ -50,7 +50,7 @@ export default function Home() {
 							{supa} saved the day
 						</p>
 					</div>
-					<Button filled={true} link='/docs' content={'Get Started'} />
+					<Button filled={true} link='/docs'>Get Started</Button>
 
 					<div className="mt-28">
 						<span className="cursor-pointer	inline-flex item-center focus:outline-none" 
@@ -61,8 +61,7 @@ export default function Home() {
 						</span>
 					</div>
 				</header>
-				<section ref={scrollToRef} id='tutorial'>
-					<div className={containerStyle}>
+				<section ref={scrollToRef} id='tutorial' className={sectionStyles}>
 						<h2 className={headerTextStyle}>Quick Tutorial</h2>
 						<h3 className="my-5 text-lg">Run this for a random quote</h3>
 
@@ -100,13 +99,14 @@ export default function Home() {
 						</Codeblock>
 
 						<div className="my-5">
-							<button 
-								type='button'
-								className={`${buttonStyle} tracking-[.15em]`}
-								onClick={(e) => {handleClick(e)}}
-								disabled={isFetching}>
-								Run Script
-							</button>
+							<Button filled={true} >
+								<button 
+									type='button'
+									onClick={(e) => {handleClick(e)}}
+									disabled={isFetching}>
+									Run Script
+								</button>
+							</Button>
 						</div>
 						
 						<Codeblock>
@@ -150,7 +150,6 @@ export default function Home() {
 						{(display && randomQuote) && <p className="mt-5 text-lg">Here is a quote by {''}
 							<span className="font-medium text-mako">{randomQuote.character}</span> from {''}
 							<span className="font-medium text-mako">{randomQuote.title}</span> 👾</p>}				
-					</div>
 				</section>
 				<Contributors />
       </Layout>

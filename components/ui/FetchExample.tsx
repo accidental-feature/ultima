@@ -1,4 +1,4 @@
-import Codeblock from "./ui/Codeblock";
+import Codeblock from "./Codeblock";
 
 const FetchExample = ({head, link, id, mb, multiple}: 
 	{head: string, link: string, id: string, mb: string, multiple?: boolean}) => {
