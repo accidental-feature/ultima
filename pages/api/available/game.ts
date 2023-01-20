@@ -28,7 +28,7 @@ export default async function handler(
 				throw error
 			}
 			if(games) {
-				res.send(games.length);
+				res.send(`${title}: ${games.length}`);
 			} else {
 				throw error
 			}

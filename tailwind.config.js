@@ -4,11 +4,12 @@ const defaultTheme = require('tailwindcss/defaultTheme')
 module.exports = {
   content: [
 		"./pages/**/*.{js,ts,jsx,tsx}",
-    "./src/**/*.{js,ts,jsx,tsx}",
+    	"./src/**/*.{js,ts,jsx,tsx}",
+		"./styles/**/*.{js,ts,jsx,tsx}",
 		"./components/**/*.{js,ts,jsx,tsx}"
 	],
   theme: {
-		borderWidth: {
+	borderWidth: {
       DEFAULT: '1px',
       '0': '0',
       '2': '2px',
@@ -34,7 +35,7 @@ module.exports = {
 				'purple-200': '#663761',
 				'purple-400': '#581455',
 				'purple-500': '#1d082a',
-				'hundred': '#ea165c'
+				'hundred': '#fb3e44'
 			},
 			boxShadow: {
         'md': '0 4px 6px -1px rgb(0 0 0 / 0.2), 0 2px 4px -2px rgb(0 0 0 / 0.2)',
