@@ -1,8 +1,19 @@
 import Image from "next/image";
+import { Dispatch, SetStateAction } from "react";
 import { containerBaseStyles } from "../../styles/tailwind/container.styles";
 import { linkBaseStyles } from "../../styles/tailwind/text.styles";
 
-const Footer = () => {
+type Props = {
+	setSecretFound: Dispatch<SetStateAction<boolean>>,
+	secretFound: boolean
+};
+
+const Footer = ({ setSecretFound, secretFound }: Props) => {
+	const onSecretClick = () => {
+		const secret = !secretFound
+		setSecretFound(secret);
+		window.localStorage.setItem("secretFound", secret.toString());
+	}
 	return (
 		<footer 
 		className={`${containerBaseStyles} text-center pt-10 pb-5 mt-15`}>
@@ -16,7 +27,7 @@ const Footer = () => {
 					© 2023 
 				</p>
 
-				<button className="ml-1.5 inline relative">
+				<button className="ml-1.5 inline relative cursor-none" onClick={() => onSecretClick()}>
 					<Image src='/images/sora-idle.gif' alt='sora khiii pixel FFBE idle' width={70} height={70} />
 				</button>
 			</div>
