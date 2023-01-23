@@ -1,10 +1,10 @@
 import Codeblock from "./Codeblock";
 
-const FetchExample = ({head, link, id, mb, multiple}: 
+const FetchExample = ({ head, link, id, mb, multiple }: 
 	{head: string, link: string, id: string, mb: string, multiple?: boolean}) => {
 	return (
 		<div id={id} className={`${mb}`}>
-			<h3 className='lg:text-2xl text-xl font-bold mb-4 text-wavy'>{ head }</h3>
+			<h3 className='text-xl md:text-2xl font-bold mb-4 text-wavy'>{ head }</h3>
 			<Codeblock>
 				<div>
 					<span className="text-mako">fetch</span>

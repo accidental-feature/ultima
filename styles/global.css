@@ -1,14 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import '../public/fonts/gg/ggsans.css';
 
 @font-face {
 	font-family: KH;
-	src: url('../public/font/KH.ttf');
+	src: url('../public/fonts/kh/KH.ttf');
 }
 @font-face {
 	font-family: FFVII;
-	src: url('../public/font/Final_Fantasy_VII.woff');
+	src: url('../public/fonts/ff/Final_Fantasy_VII.woff');
 }
 
 html {
@@ -16,19 +17,23 @@ html {
 	overflow-x: hidden;
 }
 
-h1, h2, h3,
-h4, h5, h6 {font-family: "KH";}
 
-body {
-	font-family: "KH";
-	letter-spacing: 1.5px;
-}
-.lg-ff {
-	font-size: 3rem;
-}
 p > a {
 	color: #5cdcba;
 	text-decoration: underline;
+}
+
+.bg-blackish {
+	user-select: none;
+	-moz-user-select: none;
+	background: rgba(0,0,0,0.85);
+	height: 100vh;
+	width: 100vw;
+}
+
+.font-KH {
+	font-family: "KH";
+	letter-spacing: 1.5px;
 }
 
 .sora-anim {width: 238px; max-width: 100vw;}
@@ -52,4 +57,9 @@ p > a {
 
 .text-shadow-none {
 	text-shadow: none;
+}
+
+.font-gg {
+	font-family: "gg sans", sans-serif;
+	letter-spacing: 0.7px;
 }

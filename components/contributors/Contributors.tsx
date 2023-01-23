@@ -1,4 +1,4 @@
-import { headerTextStyle } from "../../src/lib/stylesLib";
+import { headerTextStyle } from "../../styles/tailwind";
 import Contributor from "./Contributor";
 
 const Contributors = () => {

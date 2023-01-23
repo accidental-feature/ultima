@@ -1,13 +1,24 @@
 import Head from "next/head";
 import { useRouter } from "next/router";
+import { useState, useEffect } from "react";
 import Navigation from "./Navigation";
 import Footer from "./Footer";
 import { IMeta, _DocumentProps } from "../../src/lib/interfaces";
 import { fontColorStyles } from "../../styles/tailwind/text.styles";
 
 const Layout = ({children, metaInfo}: _DocumentProps) => {
+	const [secretFound, setSecretFound] = useState(false);
 	const router = useRouter();
 
+	useEffect(() => {
+		const secret = window.localStorage.getItem('secretFound')
+
+		if(secret === 'true') {
+			setSecretFound(true);
+		} else {
+			setSecretFound(false);
+		}
+	}, [secretFound, setSecretFound])
 	// assigns host based on development or production
 	const host = process.env.NODE_ENV !== 'production'
 		? 'http://localhost:3000'
@@ -48,12 +59,12 @@ const Layout = ({children, metaInfo}: _DocumentProps) => {
 			<meta property="og:image" content={meta.image} />
 		</Head>
 
-			<div className={`${fontColorStyles} bg-gray-100 dark:bg-gray-900`}>
+			<div className={`${fontColorStyles} ${secretFound ? 'font-KH' : 'font-gg'} bg-gray-100 dark:bg-gray-900`}>
 				<Navigation />
 				<main className="mx-auto">
 					{ children }
 				</main>
-				<Footer />
+				<Footer secretFound={secretFound} setSecretFound={setSecretFound} />
 			</div>
 		</>
 	)

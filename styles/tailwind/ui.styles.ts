@@ -2,13 +2,10 @@ export const inputStyles = `
 	text-base text-gray-800 
 	bg-gray-200 
 	rounded-sm p-2.5 
-	placeholder:text-gray-500`;
-
-export const inputFileStyles = `
-	font-semibold text-sm
-	w-full
-`
-export const containerBorder = ``
+	placeholder:text-gray-500
+	autofill:bg-gold
+	invalid:border-cloud-kh
+`;
 
 
 // export const ButtonStyle = `inline-flex items-center 

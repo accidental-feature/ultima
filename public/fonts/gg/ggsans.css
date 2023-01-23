@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'gg sans';
+    src: url('ggsans-normal-webfont.woff2') format('woff2'),
+         url('ggsans-normal-webfont.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'gg sans';
+    src: url('ggsans-normalitalic-webfont.woff2') format('woff2'),
+         url('ggsans-normalitalic-webfont.woff') format('woff');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'gg sans';
+    src: url('ggsans-medium-webfont.woff2') format('woff2'),
+         url('ggsans-medium-webfont.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'gg sans';
+    src: url('ggsans-mediumitalic-webfont.woff2') format('woff2'),
+         url('ggsans-mediumitalic-webfont.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'gg sans';
+    src: url('ggsans-semibolditalic-webfont.woff2') format('woff2'),
+         url('ggsans-semibolditalic-webfont.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'gg sans';
+    src: url('ggsans-semibold-webfont.woff2') format('woff2'),
+         url('ggsans-semibold-webfont.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'gg sans';
+    src: url('ggsans-bold-webfont.woff2') format('woff2'),
+         url('ggsans-bold-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'gg sans';
+    src: url('ggsans-bolditalic-webfont.woff2') format('woff2'),
+         url('ggsans-bolditalic-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: italic;
+
+}
+
+@font-face {
+    font-family: 'gg sans';
+    src: url('ggsans-extrabold-webfont.woff2') format('woff2'),
+         url('ggsans-extrabold-webfont.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'gg sans';
+    src: url('ggsans-extrabolditalic-webfont.woff2') format('woff2'),
+         url('ggsans-extrabolditalic-webfont.woff') format('woff');
+    font-weight: 800;
+    font-style: italic;
+}
