@@ -19,7 +19,7 @@ const Footer = ({ setSecretFound, secretFound }: Props) => {
 		className={`${containerBaseStyles} text-center pt-10 pb-5 mt-15`}>
 			<div className="flex items-center justify-center">
 				<p>
-					<a className={`${linkBaseStyles}`}
+					<a className={`${linkBaseStyles} text-hundred`}
 					href="http://0hundred.dev"
 					 target="_blank" rel="noopener noreferrer">
 						0hundred0 {''}

@@ -17,6 +17,5 @@ export {
 } from './button.styles'
 
 export {
-	inputFileStyles,
 	inputStyles
 } from './ui.styles'
