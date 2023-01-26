@@ -25,12 +25,12 @@
 
 ### Techstack
 
-- [supabase](https://supabase.com/) - api is written with Supabase
-- [Next.js](https://nextjs.org/) - website is created in Next
+- [supabase](https://supabase.com/) - API database hosting
+- [Next.js](https://nextjs.org/) - Website is created in Next
 - [TailwindCSS](https://tailwindcss.com/) - Tailwind is used for styling
 - [prisma](https://www.prisma.io/) - Database management
 
-> The frontend of the api is hosted on Vercel and the api is on Supabase.
+> The App is hosted on Vercel
 > <br/>
 ### About
 

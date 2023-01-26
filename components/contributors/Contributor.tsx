@@ -9,7 +9,7 @@ const Contributor = ({avatarUrl,  url, pfpColor}: Props) => {
 			<a className="contributor-link w-full" 
 			href={url} target="_blank" rel="noopener noreferrer">
 				<img className={
-					`rounded-full ${pfpColor} scale-110 hover:border-2 hover:scale-150`
+					`rounded-full scale-105 hover:border-2 hover:scale-150 ${pfpColor}`
 				} 
 				src={avatarUrl} alt="Logo"/>
 			</a>

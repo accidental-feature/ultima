@@ -1,9 +1,9 @@
-import { headerTextStyle } from "../src/lib/stylesLib";
-import Contributor from "./ui/Contributor";
+import { headerTextStyle } from "../../styles/tailwind";
+import Contributor from "./Contributor";
 
 const Contributors = () => {
 	return (
-		<section className="container relative mx-auto px-2 max-w-4xl py-3 mb-3" id='contributors'>
+		<section className="container relative mx-auto px-2 max-w-4xl py-3 mt-10 mb-3" id='contributors'>
 			<h2 className={headerTextStyle + ' mb-4 text-center'}>Contributors</h2>
 
 			<ul className="contributors w-11/12 mx-auto mt-3">

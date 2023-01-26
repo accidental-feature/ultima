@@ -1,6 +1,6 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 import type { NextApiRequest, NextApiResponse } from 'next'
-import { GameData } from '../../../src/types'
+import { GameData } from '../../../src/lib/types'
 import { supabase } from '../../../src/lib/supaclient'
 import _ from 'lodash';
 import { getMultipleRandom } from '../../../src/utils/getMultipleRandom';
@@ -33,8 +33,7 @@ export default async function handler(
 			} = await supabase
 				.from('Quotes')
 				.select(`*`)
-				.eq('title', title)
-				.limit(userLimit)
+				.textSearch('title', title)
 			
 			if(error && status !== 406) {
 				throw error

@@ -1,4 +1,4 @@
-import { GameData } from "../types";
+import { GameData } from "../lib/types";
 
 export const getSingleRandom = (arr: GameData[]): GameData => {
 	const shuffled = [...arr].sort(() => 0.5 - Math.random());

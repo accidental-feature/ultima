@@ -1,18 +1,65 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import '../public/fonts/gg/ggsans.css';
+
+@font-face {
+	font-family: KH;
+	src: url('../public/fonts/kh/KH.ttf');
+}
+@font-face {
+	font-family: FFVII;
+	src: url('../public/fonts/ff/Final_Fantasy_VII.woff');
+}
 
 html {
 	background-color: #111827;
 	overflow-x: hidden;
 }
+
+
 p > a {
 	color: #5cdcba;
 	text-decoration: underline;
 }
 
+.bg-blackish {
+	user-select: none;
+	-moz-user-select: none;
+	background: rgba(0,0,0,0.85);
+	height: 100vh;
+	width: 100vw;
+}
+
+.font-KH {
+	font-family: "KH";
+	letter-spacing: 1.5px;
+}
+
 .sora-anim {width: 238px; max-width: 100vw;}
+
 .contributors {
 	display: grid;
 	grid-template-columns: repeat(auto-fit,  minmax(10px, max-content)) 
+}
+
+.text-shadow {
+	text-shadow: 0 2px 4px rgba(0,0,0,0.7);
+}
+
+.text-shadow-md {
+	text-shadow: 0 4px 8px rgba(0,0,0,0.7), 0 2px 4px rgba(0,0,0,0.6);
+}
+
+.text-shadow-lg {
+	text-shadow: 0 15px 30px rgba(0,0,0,0.7), 0 5px 15px rgba(0,0,0,0.6);
+}
+
+.text-shadow-none {
+	text-shadow: none;
+}
+
+.font-gg {
+	font-family: "gg sans", sans-serif;
+	letter-spacing: 0.7px;
 }

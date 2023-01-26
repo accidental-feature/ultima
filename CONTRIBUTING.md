@@ -5,7 +5,7 @@
 <h1 align='center'>Contributing to Ultima</h1>
 
 <p align="center">
-	<img src="/public/images/sora-idle.gif" alt="Logo" width="90" height="90">	
+  <img src="/public/images/cloud-idle.gif" alt="Logo" width="90" height="90">
 </p>
 
 <p align="center">
@@ -36,13 +36,16 @@ I am a sucker for a good PR (pull requests). But, if you're thinking of working 
 5. Before committing the changes run `npm build` to check for any errors
 6. Follow [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) for writing commit messages
 7. Push to your fork and [submit a pull request][pr] in the appropriate branch
-8. Pat your self on the back and wait for your pull request to be reviewed for approval by a moderator.
+
+8. Pat yourself on the back and wait for your pull request to be reviewed for approval by a moderator.
 
 #### Here is the workspace layout:
-- `components` is where all the layout and ui files are.
-- `pages` contains the different page routes and the api folder
+- `components` is where all the layout and UI files are.
+- `pages` contains the different page routes and the API folder
+
+
 - `public` is where you can find the icon and image files.
-- `src` contains general utilities and library items. Think of it a place for miscellaneous items
+- `src` contains general utilities and library items. Think of it as a place for miscellaneous items
 - `styles` contains the global stylesheet with also includes the tailwind imports
 - `.env.example` includes an **example** of what the supabase urls look like if the app was created
 - `tsconfig.json` includes the tailwind custom styles and content pointers
@@ -67,7 +70,7 @@ Next, create the **Pull Request** to the *main* branch.
 This is the production branch.
 **This should be used for PR** and always **MUST** build.
 ### [*migrate*](https://github.com/0hundred0/ultima/tree/migrate)
-This branch is the quotes api example branch. If you are looking to add additional quotes please visit the migrate branch.
+This branch is the quotes API database branch. If you are looking to add additional quotes please visit the migrate branch.
 
 ---
 
