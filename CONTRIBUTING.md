@@ -1,6 +1,6 @@
 *This file is still Work in Progress*
 # Contributing
-<img src="/public/images/sora-idle.gif" alt="Logo" width="90" height="90">
+<img src="/public/images/cloud-idle.gif" alt="Logo" width="90" height="90">
 
 [fork]: https://github.com/0hundred0/ultima/fork
 [pr]: https://github.com/0hundred0/ultima/pulls

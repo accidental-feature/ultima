@@ -15,6 +15,7 @@ const Layout = ({children, metaInfo}: _DocumentProps) => {
 
 		if(secret === 'true') {
 			setSecretFound(true);
+
 		} else {
 			setSecretFound(false);
 		}
@@ -59,7 +60,10 @@ const Layout = ({children, metaInfo}: _DocumentProps) => {
 			<meta property="og:image" content={meta.image} />
 		</Head>
 
-			<div className={`${fontColorStyles} ${secretFound ? 'font-KH' : 'font-gg'} bg-gray-100 dark:bg-gray-900`}>
+			<div className={
+				`${fontColorStyles} ${secretFound ? 'font-KH' : 'font-gg'} 
+				bg-gray-100 dark:bg-gray-900`
+			}>
 				<Navigation />
 				<main className="mx-auto">
 					{ children }
