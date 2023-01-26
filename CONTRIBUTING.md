@@ -24,7 +24,7 @@ I am a sucker for a good PR (pull requests). But, if you're thinking of working 
 - Read [general contributions](https://github.com/0hundred0/ultima/blob/main/CONTRIBUTING.md) for overall guidelines
 - Open a new issue if there is something new you want to implement before working on it
 
-**Before contributing to the UI, know that the env variables are missing. The missing env variables will cause an error on the build. I am currently looking for a workaround.**
+**Before contributing to the UI, know that the env variables are missing. The missing env variables will cause and error on build. I am currently looking for a workaround.**
 
 ---
 
@@ -36,11 +36,14 @@ I am a sucker for a good PR (pull requests). But, if you're thinking of working 
 5. Before committing the changes run `npm build` to check for any errors
 6. Follow [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) for writing commit messages
 7. Push to your fork and [submit a pull request][pr] in the appropriate branch
+
 8. Pat yourself on the back and wait for your pull request to be reviewed for approval by a moderator.
 
 #### Here is the workspace layout:
 - `components` is where all the layout and UI files are.
 - `pages` contains the different page routes and the API folder
+
+
 - `public` is where you can find the icon and image files.
 - `src` contains general utilities and library items. Think of it as a place for miscellaneous items
 - `styles` contains the global stylesheet with also includes the tailwind imports
