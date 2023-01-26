@@ -56,7 +56,7 @@ const RequestForm = () => {
 		<div className={`flex flex-col mb-4`}>
 			<label className={`${labelStyles}`}>Favorite Game</label>
 			<input className={`${inputStyles}`} type="text" 
-			name="user_game" placeholder="Kingdom Hearts II"/>
+			name="user_game" placeholder="Final Fantasy IV"/>
 		</div>
 
 		<div className={`flex flex-col mb-4`}>

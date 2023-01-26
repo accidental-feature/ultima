@@ -15,7 +15,7 @@ const Navigation = () => {
 				via-pink-100 to-pink">
 			</div>
 			<div className="shadow-md">
-				<nav className={`${containerBaseStyles}`} id="navbar">
+				<nav className={`${containerBaseStyles} py-2`} id="navbar">
 					<div className="lg:inline-flex flex items-center justify-between mx-3 py-2 text-hundred">
 						<Link href='/' className="font-semibold text-xl hover:opacity-75">
 							Ultima<span className="text-xs">.rest</span>
