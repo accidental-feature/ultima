@@ -4,7 +4,7 @@
 *This file is still Work in Progress*
 <h1 align='center'>Contributing to Ultima</h1>
 <p align="center">
-	<img src="/public/images/sora-idle.gif" alt="Logo" width="90" height="90">	
+	<img src="/public/images/cloud-idle.gif" alt="Logo" width="90" height="90">	
 </p>
 
 <p align="center">
