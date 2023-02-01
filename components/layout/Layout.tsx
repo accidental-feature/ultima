@@ -5,6 +5,7 @@ import Navigation from "./Navigation";
 import Footer from "./Footer";
 import { IMeta, _DocumentProps } from "../../src/lib/interfaces";
 import { fontColorStyles } from "../../styles/tailwind/text.styles";
+import SecretBtn from "./SecretBtn";
 
 const Layout = ({children, metaInfo}: _DocumentProps) => {
 	const [secretFound, setSecretFound] = useState(false);
@@ -62,13 +63,14 @@ const Layout = ({children, metaInfo}: _DocumentProps) => {
 
 			<div className={
 				`${fontColorStyles} ${secretFound ? 'font-KH' : 'font-gg'} 
-				bg-gray-100 dark:bg-gray-900`
+				bg-gray-100 dark:bg-gray-900 relative`
 			}>
 				<Navigation />
 				<main className="mx-auto">
 					{ children }
 				</main>
-				<Footer secretFound={secretFound} setSecretFound={setSecretFound} />
+				<Footer/>
+				<SecretBtn secretFound={secretFound} setSecretFound={setSecretFound} />
 			</div>
 		</>
 	)

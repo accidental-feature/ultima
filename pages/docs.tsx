@@ -6,7 +6,7 @@ import { containerBaseStyles, headerTextStyle, sectionStyles } from "../styles/t
 const docs = () => {
 	const metaInfo = {
 		title: 'Ultima - Docs',
-		description: 'Current endpoints for Ultima API',
+		description: 'Ultima Quotes documentation including API endpoints and use examples.',
 		image: '/images/ultima_logo.png'
 	}
 	const randomQuoteCharRef = useRef<HTMLDivElement>(null);
@@ -15,9 +15,15 @@ const docs = () => {
 	const randomQuotesRef = useRef<HTMLDivElement>(null);
 	const randomQuoteTitleRef = useRef<HTMLDivElement>(null);
 	const randomQuotesTitleRef = useRef<HTMLDivElement>(null);
+	const quoteById = useRef<HTMLDivElement>(null);
 
 	const scrollToElement = (id: string) => {
 		switch(id) {
+			case 'quote-by-id':
+				quoteById.current 
+					? quoteById.current.scrollIntoView({behavior:"smooth"})
+					: null
+				return
 			case 'random-quote':
 				randomQuoteRef.current 
 					? randomQuoteRef.current.scrollIntoView({behavior:"smooth"})
@@ -61,7 +67,8 @@ const docs = () => {
 					<p className='my-5 text-lg'>The examples below utilize the <span className='font-bold'>Fetch API</span> but feel free
 					to use any other http library.</p>
 				</header>
-				<section className="mt-10">
+				
+				<section className="my-10">
 					<div>
 						<h2 className="text-2xl font-bold mb-3">Important Notes</h2>
 						<ul className="list-disc list-inside text-base lg:text-lg">
@@ -79,6 +86,12 @@ const docs = () => {
 					<div className="mt-10">
 						<h2 className="text-2xl font-bold mb-3">Routes Available</h2>
 						<ol className="list-decimal list-inside text-base">
+							<li>
+								<span className="cursor-pointer	text-mako underline hover:opacity-80" onClick={() => scrollToElement('quote-by-id')}>
+									Get Quote by Id
+								</span>
+							</li>
+
 							<li>
 								<span className="cursor-pointer	text-mako underline hover:opacity-80" onClick={() => scrollToElement('random-quote')}>
 									Get a random quote
@@ -122,7 +135,16 @@ const docs = () => {
 						</ol>
 					</div>
 				</section>
+
 				<section className={`container relative lg:mx-auto max-w-4xl py-10 pb-8 border-b border-mako`}>
+					<div ref={quoteById}>
+						<FetchExample 
+							head={'Get Quote by ID'} 
+							id='quote-by-id' link='https://ultima.rest/api/quote?id=6' 
+							mb={'mb-28 sm:mb-32'}
+						/>
+					</div>
+
 					<div ref={randomQuoteRef}>
 						<FetchExample 
 							head={'Get Random Quote'} 
