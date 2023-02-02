@@ -1,5 +1,4 @@
 <!-- PROJECT LOGO -->
-<br />
 <p align="center">
   <a href="https://github.com/0hundred0/ultima">
     <img src="/images/ultima_logo.png" alt="Logo" width="90" height="90">
@@ -21,8 +20,6 @@
   </p>
 </p>
 
-<br/>
-
 ### Techstack
 
 - [supabase](https://supabase.com/)
@@ -30,23 +27,17 @@
 - [TailwindCSS](https://tailwindcss.com/)
 - [prisma](https://www.prisma.io/)
 
-> The frontend of the api is hosted on Vercel and the api is on Supabase.
-> <br/>
+> The frontend of the api is hosted on Vercel and the api is on Supabase.  
+
 ### About
 
-I started Ultima my last project in 2022 because I one of my favorite aspects of video games is the iconic things that various characters say. So, I wanted to find an API to contribute to with some of my favorite quotes, and as far as I could tell, there weren't any. Hence, Ultima.rest was created.
-
-<br/>
+I started Ultima my last project in 2022 because I one of my favorite aspects of video games is the iconic things that various characters say. So, I wanted to find an API to contribute to with some of my favorite quotes, and as far as I could tell, there weren't any. Hence, Ultima.rest was created.  
 
 ### Support
 
 Consider showing some support if you use the api in your projects.
 
-<a href="https://www.buymeacoffee.com/0hundred0">
-	<img src="https://www.buymeacoffee.com/assets/img/guidelines/download-assets-sm-1.svg" height="35px"/>
-</a>
-
-<br/>
+[![Buy Me Coffee](https://www.buymeacoffee.com/assets/img/guidelines/download-assets-sm-1.svg)](https://www.buymeacoffee.com/0hundred0)  
 
 <!-- CONTRIBUTING -->
 
@@ -60,7 +51,9 @@ Also please see the [open issues](https://github.com/0hundred0/ultima-rest/issue
 Want to help build Ultima? Join the [Discord](https://discord.gg/Qs7qJY3z) to get started.
 
 #### Adding New Quotes
-- The quote schema is as follows: 
+
+- The quote schema is as follows:
+
 ```
 quote: 'string' // The quote. We suggest no more than two sentences.
 character: 'string', // Character name as it appears in game
@@ -68,10 +61,10 @@ title: 'string', // Game title without special symbols e.g. Crisis Final Fantasy
 esrb: 'string', // E, E10, T, M, A, or RP
 release: 'number'  // Year of Release
 ```
+
 - Copy the data [template](./data/template.json) to paste into the [quotes.json](./data/quotes.json) making as many copies as needed.
 - Once you've added your quotes and before you submit a push request make sure the template is not altered.
-- After your additions are reviewed a member of the team will add your profile to the [Ultima.rest](https://ultima.rest) website.
-<br/>
+- After your additions are reviewed a member of the team will add your profile to the [Ultima.rest](https://ultima.rest) website.  
 
 <!-- LICENSE -->
 
@@ -80,6 +73,7 @@ release: 'number'  // Year of Release
 Copyright © 2023 [K. Richmond](https://0hundred.dev)
 
 ### Shout Outs
-Thank you to all the contributors and users of Ultima!
-<br/>
+
+Thank you to all the contributors and users of Ultima!  
+
 Thank you [Anime-chan](https://anime-chan.vercel.app) for the inspiration! Check them out if you have a chance!
