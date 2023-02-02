@@ -33,6 +33,21 @@
 8. Push to your fork and [submit a pull request][pr] in the __migrate branch__
 9. Pat your self on the back and wait for your pull request to be reviewed for approval by a moderator.  
 
+### Adding New Quotes (Simplified)
+
+- Copy the data [template](./data/template.json) to paste into the [quotes.json](./data/quotes.json) making as many copies as needed.
+- Once you've added your quotes and before you submit a push request make sure the template is not altered.
+- After your additions are reviewed a member of the team will add your profile to the [Ultima.rest](https://ultima.rest) website. 
+- The quote schema is as follows:
+
+```json
+quote: 'string' // The quote. We suggest no more than two sentences.
+character: 'string', // Character name as it appears in game
+title: 'string', // Game title without special symbols e.g. Crisis Final Fantasy VII
+esrb: 'string', // E, E10, T, M, A, or RP
+release: 'number'  // Year of Release
+```  
+
 ### Disclaimer
 
 As much as I appreciate all the help, please try to add at least 10 quotes before submitting a pull request. And those who submit 20 or more will be added to the "contributors" section on the Ultima website.  
