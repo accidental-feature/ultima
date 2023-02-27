@@ -1,44 +1,72 @@
 [
 	{
-		"quote": "I'll take your confession now!",
-		"character": "Vicar Max",
-		"title": "The Outer Worlds",
+		"quote": "Do you have the resolve to challenge the distortion of the world?",
+		"character": "Igor",
+		"title": "Persona 5 Royal",
 		"esrb": "M",
 		"release": 2019
 	},
 	{
-		"quote": "Is this French, I can't fucking read French.",
-		"character": "Vicar Max",
-		"title": "The Outer Worlds",
+		"quote": "First off, let us celebrate our reunion.",
+		"character": "Igor",
+		"title": "Persona 5 Royal",
 		"esrb": "M",
 		"release": 2019
 	},
 	{
-		"quote": "If this is a joke, you should know I've never found anything funny in my life.",
-		"character": "Constable Reyes",
-		"title": "The Outer Worlds",
+		"quote": "Very well… I have heeded your resolve.",
+		"character": "Arsene",
+		"title": "Persona 5 Royal",
 		"esrb": "M",
 		"release": 2019
 	},
 	{
-		"quote": "It's so much easier to see the world in black and white. Gray? I don't know what to do with gray...",
-		"character": "Garrus",
-		"title": "Mass Effect 2",
+		"quote": "Vow to me.",
+		"character": "Arsene",
+		"title": "Persona 5 Royal",
 		"esrb": "M",
-		"release": 2010
+		"release": 2019
 	},
 	{
-		"quote": "You humans have a saying; an eye for an eye; a life for a life. Well he owes me ten lives and I plan to collect.",
-		"character": "Garrus",
-		"title": "Mass Effect 2",
+		"quote": "I am thou, thou art I…",
+		"character": "Arsene",
+		"title": "Persona 5 Royal",
 		"esrb": "M",
-		"release": 2010
+		"release": 2019
 	},
 	{
-		"quote": "The day my father Odin banished me from Asgard, I was bitten by a vampire and had radioactive waste dumped into my eyes. To make matters worse, my mutant ability to control weather activated just as I was hit by a blast of gamma radiation.",
-		"character": "Deadpool",
-		"title": "Marvel Ultimate Alliance",
-		"esrb": "T",
-		"release": 2006
+		"quote": "Thou who art willing to perform all sacrilegious acts for thine own justice! Call upon my name, and release thy rage!",
+		"character": "Arsene",
+		"title": "Persona 5 Royal",
+		"esrb": "M",
+		"release": 2019
+	},
+	{
+		"quote": "Show the strength of thy will to ascertain all on thine own though thou be chained to Hell itself!",
+		"character": "Arsene",
+		"title": "Persona 5 Royal",
+		"esrb": "M",
+		"release": 2019
+	},
+	{
+		"quote": "If you so desire, I shall consider granting you the power to break through this crisis.",
+		"character": "Arsene",
+		"title": "Persona 5 Royal",
+		"esrb": "M",
+		"release": 2019
+	},
+	{
+		"quote": "Don’t call me a cat! I am Morgana!",
+		"character": "Morgana",
+		"title": "Persona 5 Royal",
+		"esrb": "M",
+		"release": 2019
+	},
+	{
+		"quote": "I’m a human-an honest-to-god human!",
+		"character": "Morgana",
+		"title": "Persona 5 Royal",
+		"esrb": "M",
+		"release": 2019
 	}
 ]
