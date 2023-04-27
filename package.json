@@ -1,6 +1,6 @@
 {
-  "name": "ultima-rest",
-  "version": "1.0.2",
+  "name": "ultima",
+  "version": "1.0.3",
   "description": "The simplified database management for ultima.rest quotes API",
   "scripts": {
     "postgres-migrate": "npx prisma migrate dev --name init",
@@ -8,13 +8,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/0hundred0/ultima-rest.git"
+    "url": "git+https://github.com/kilgamesh/ultima.git"
   },
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/0hundred0/ultima-rest/issues"
+    "url": "https://github.com/kilgamesh/ultima/issues"
   },
-  "homepage": "https://github.com/0hundred0/ultima-rest",
+  "homepage": "https://github.com/kilgamesh/ultima",
   "devDependencies": {
     "@types/jest": "^29.2.4",
     "@types/node": "^18.11.10",

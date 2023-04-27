@@ -6,7 +6,7 @@ import {
 
 // Uncomment the function needed function
 async function main() {
-	// addQuotes();
+	addQuotes();
 	// removeQuoteById(1)
 	// updateQuote()
 	// updateQuotes()

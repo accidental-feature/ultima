@@ -1,72 +1,219 @@
 [
 	{
-		"quote": "Do you have the resolve to challenge the distortion of the world?",
-		"character": "Igor",
-		"title": "Persona 5 Royal",
+		"quote": "This is why you don’t bring back fallen warriors, sooner or later they’re going to see everything they fought for’s turned to shit.",
+		"character": "Johnny Silverhand",
+		"title": "Cyberpunk 2077",
 		"esrb": "M",
-		"release": 2019
+		"release": 2020
 	},
 	{
-		"quote": "First off, let us celebrate our reunion.",
-		"character": "Igor",
-		"title": "Persona 5 Royal",
+		"quote": "Actually, I wasn't gonna pay you at all.",
+		"character": "Jackie",
+		"title": "Cyberpunk 2077",
 		"esrb": "M",
-		"release": 2019
+		"release": 2020
 	},
 	{
-		"quote": "Very well… I have heeded your resolve.",
-		"character": "Arsene",
-		"title": "Persona 5 Royal",
+		"quote": "Eh, you get used to it. I just gotta be careful not to pull the pin when I wanna pick my nose.",
+		"character": "Ozob",
+		"title": "Cyberpunk 2077",
 		"esrb": "M",
-		"release": 2019
+		"release": 2020
 	},
 	{
-		"quote": "Vow to me.",
-		"character": "Arsene",
-		"title": "Persona 5 Royal",
+		"quote": "Once upon a time, people were talking to graves and nobody batted an eyelid, right?",
+		"character": "Judy Alvarez",
+		"title": "Cyberpunk 2077",
 		"esrb": "M",
-		"release": 2019
+		"release": 2020
 	},
 	{
-		"quote": "I am thou, thou art I…",
-		"character": "Arsene",
-		"title": "Persona 5 Royal",
+		"quote": "Give yourself time. Ideas'll come. Life'll shake you, roll you, maybe embrace you. The music'll find you.",
+		"character": "Johnny Silverhand",
+		"title": "Cyberpunk 2077",
 		"esrb": "M",
-		"release": 2019
+		"release": 2020
 	},
 	{
-		"quote": "Thou who art willing to perform all sacrilegious acts for thine own justice! Call upon my name, and release thy rage!",
-		"character": "Arsene",
-		"title": "Persona 5 Royal",
+		"quote": "Now, as that ol' Greek dawg says, life's a banquet - so don't go thirsty, but don't get drunk, either.",
+		"character": "Dexter DeShawn",
+		"title": "Cyberpunk 2077",
 		"esrb": "M",
-		"release": 2019
+		"release": 2020
 	},
 	{
-		"quote": "Show the strength of thy will to ascertain all on thine own though thou be chained to Hell itself!",
-		"character": "Arsene",
-		"title": "Persona 5 Royal",
+		"quote": "The city of dreams. I'd gladly kick the balls off the idiot who thought that one up.",
+		"character": "Panam",
+		"title": "Cyberpunk 2077",
 		"esrb": "M",
-		"release": 2019
+		"release": 2020
 	},
 	{
-		"quote": "If you so desire, I shall consider granting you the power to break through this crisis.",
-		"character": "Arsene",
-		"title": "Persona 5 Royal",
+		"quote": "Swap meat for chrome, live a BD fantasy, whatever, but at the end of it all, it's the code you live by that defines who you are.",
+		"character": "Johnny Silverhand",
+		"title": "Cyberpunk 2077",
 		"esrb": "M",
-		"release": 2019
+		"release": 2020
 	},
 	{
-		"quote": "Don’t call me a cat! I am Morgana!",
-		"character": "Morgana",
-		"title": "Persona 5 Royal",
-		"esrb": "M",
-		"release": 2019
+		"quote": "Survival requires perfection.",
+		"character": "Aloy",
+		"title": "Horizon Zero Dawn",
+		"esrb": "T",
+		"release": 2017
 	},
 	{
-		"quote": "I’m a human-an honest-to-god human!",
-		"character": "Morgana",
-		"title": "Persona 5 Royal",
-		"esrb": "M",
-		"release": 2019
+		"quote": "The strength to stand alone, Aloy, is the strength to make a stand. To serve a purpose greater than yourself. That is the lesson you must learn.",
+		"character": "Rost",
+		"title": "Horizon Zero Dawn",
+		"esrb": "T",
+		"release": 2017
+	},
+	{
+		"quote": "Being smart will count for nothing if you don’t make the world better.",
+		"character": "Elisabet",
+		"title": "Horizon Zero Dawn",
+		"esrb": "T",
+		"release": 2017
+	},
+	{
+		"quote": "People die all the time. Now keep going, and find something interesting.",
+		"character": "Sylens",
+		"title": "Horizon Zero Dawn",
+		"esrb": "T",
+		"release": 2017
+	},
+	{
+		"quote": "When we teach the young to walk on shifting ice we say: the secret is taking one step, then the next.",
+		"character": "Tikuk",
+		"title": "Horizon Zero Dawn",
+		"esrb": "T",
+		"release": 2017
+	},
+	{
+		"quote": "Try not to forget about me while you're out there changing the world.",
+		"character": "Erend",
+		"title": "Horizon Zero Dawn",
+		"esrb": "T",
+		"release": 2017
+	},
+	{
+		"quote": "Change will not come in a single sunrise.",
+		"character": "Sun King Avad",
+		"title": "Horizon Zero Dawn",
+		"esrb": "T",
+		"release": 2017
+	},
+	{
+		"quote": "What happened to dreams and honor?",
+		"character": "Zack Fair",
+		"title": "Final Fantasy Crisis Core",
+		"esrb": "T",
+		"release": 2007
+	},
+	{
+		"quote": "SOLDIER 2nd class Zack, on the job!",
+		"character": "Zack Fair",
+		"title": "Final Fantasy Crisis Core",
+		"esrb": "T",
+		"release": 2007
+	},
+	{
+		"quote": "Sephiroth! Have you completely lost your mind?!",
+		"character": "Zack Fair",
+		"title": "Final Fantasy Crisis Core",
+		"esrb": "T",
+		"release": 2007
+	},
+	{
+		"quote": "Dammit, you're not the only Hero!",
+		"character": "Zack Fair",
+		"title": "Final Fantasy Crisis Core",
+		"esrb": "T",
+		"release": 2007
+	},
+	{
+		"quote": "Embrace your dreams, and... whatever happens, protect your honor... as SOLDIER!",
+		"character": "Zack Fair",
+		"title": "Final Fantasy Crisis Core",
+		"esrb": "T",
+		"release": 2007
+	},
+	{
+		"quote": "Why is everyone...always pushing things on me?",
+		"character": "Zack Fair",
+		"title": "Final Fantasy Crisis Core",
+		"esrb": "T",
+		"release": 2007
+	},
+	{
+		"quote": "Those wings, I want them too.",
+		"character": "Zack Fair",
+		"title": "Final Fantasy Crisis Core",
+		"esrb": "T",
+		"release": 2007
+	},
+	{
+		"quote": "That girl, she said that the sky frightened her, that looks so liberating.",
+		"character": "Zack Fair",
+		"title": "Final Fantasy Crisis Core",
+		"esrb": "T",
+		"release": 2007
+	},
+	{
+		"quote": "Hey, would you say I became a hero?",
+		"character": "Zack Fair",
+		"title": "Final Fantasy Crisis Core",
+		"esrb": "T",
+		"release": 2007
+	},
+	{
+		"quote": "Boy oh boy, the price of freedom is steep.",
+		"character": "Zack Fair",
+		"title": "Final Fantasy Crisis Core",
+		"esrb": "T",
+		"release": 2007
+	},
+	{
+		"quote": "Sorry if your sword got any wear, tear or rust on it.",
+		"character": "Zack Fair",
+		"title": "Final Fantasy Crisis Core",
+		"esrb": "T",
+		"release": 2007
+	},
+	{
+		"quote": "Don't sweat it. If I can do it, you can, too.",
+		"character": "Zack Fair",
+		"title": "Final Fantasy Crisis Core",
+		"esrb": "T",
+		"release": 2007
+	},
+	{
+		"quote": "That girl, she said that the sky frightened her, that looks so liberating.",
+		"character": "Zack Fair",
+		"title": "Final Fantasy Crisis Core",
+		"esrb": "T",
+		"release": 2007
+	},
+	{
+		"quote": "Hey, Zack? You know, I've never seen you use that.",
+		"character": "Cloud Strife",
+		"title": "Final Fantasy Crisis Core",
+		"esrb": "T",
+		"release": 2007
+	},
+	{
+		"quote": "I'm... your living... legacy.",
+		"character": "Cloud Strife",
+		"title": "Final Fantasy Crisis Core",
+		"esrb": "T",
+		"release": 2007
+	},
+	{
+		"quote": "I have twenty-three tiny wishes, but you probably won't remember them all, so I put them all together into one... I'd like to spend more time with you.",
+		"character": "Aerith Gainsborough",
+		"title": "Final Fantasy Crisis Core",
+		"esrb": "T",
+		"release": 2007
 	}
 ]

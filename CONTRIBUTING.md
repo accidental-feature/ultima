@@ -1,5 +1,5 @@
-[fork]: https://github.com/0hundred0/ultima/fork
-[pr]: https://github.com/0hundred0/ultima/pulls
+[fork]: https://github.com/kilgamesh/ultima/fork
+[pr]: https://github.com/kilgamesh/ultima/pulls
 
 <h1 align='center'>Contributing to Ultima</h1>
 
@@ -68,12 +68,12 @@ As much as I appreciate all the help, please try to add at least 10 quotes befor
 
 ## Branches
 
-### [*main*](https://github.com/0hundred0/ultima)
+### [*main*](https://github.com/kilgamesh/ultima)
 
 This is the production branch.
 __This should be used for PR__ and always __MUST__ build.  
 
-### [*migrate*](https://github.com/0hundred0/ultima/tree/migrate)
+### [*migrate*](https://github.com/kilgamesh/ultima/tree/migrate)
 
 This branch is the quotes api example branch. If you are looking to add additional quotes please visit the migrate branch.
 
@@ -83,7 +83,7 @@ This branch is the quotes api example branch. If you are looking to add addition
 
 Feel free to join the Discord community to talk about the project or just to chat. Collaborating is easier if we all talk directly.
 
-[Discord](https://discord.gg/mPgVbGPw)
+[Discord](https://discord.gg/3vJvZTP42x)
 
 ---
 
