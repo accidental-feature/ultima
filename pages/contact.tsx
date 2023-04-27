@@ -1,7 +1,5 @@
 import Layout from "../components/layout/Layout";
-import emailjs from "@emailjs/browser";
 import RequestForm from "../components/ui/RequestForm";
-import { useEffect } from "react";
 import { headerTextStyle } from "../styles/tailwind";
 
 const contact = () => {
