@@ -2,7 +2,7 @@ import Layout from "../components/layout/Layout";
 import FetchExample from "../components/ui/FetchExample";
 import { useRef } from "react";
 import Link from "next/link";
-import { containerBaseStyles, headerTextStyle, sectionStyles } from "../styles/tailwind";
+import { headerTextStyle, sectionStyles } from "../styles/tailwind";
 const docs = () => {
 	const metaInfo = {
 		title: 'Ultima - Docs',

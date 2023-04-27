@@ -1,7 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import emailjs from '@emailjs/browser';
 import { baseButtonStyles, labelStyles, inputStyles, headerTextStyle  } from "../../styles/tailwind";
-import Layout from "../layout/Layout";
 import Link from "next/link";
 
 const RequestForm = () => {
