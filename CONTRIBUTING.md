@@ -1,5 +1,5 @@
-[fork]: https://github.com/0hundred0/ultima/fork
-[pr]: https://github.com/0hundred0/ultima/pulls
+[fork]: https://github.com/kilgamesh/ultima/fork
+[pr]: https://github.com/kilgamesh/ultima/pulls
 
 *This file is still Work in Progress*
 <h1 align='center'>Contributing to Ultima</h1>
@@ -20,8 +20,8 @@ I am a sucker for a good PR (pull requests). But, if you're thinking of working 
 <br>
 
 ### Before you start get started:
-- Check the [issues page](https://github.com/0hundred0/ultima/issues) to find open issues to work on
-- Read [general contributions](https://github.com/0hundred0/ultima/blob/main/CONTRIBUTING.md) for overall guidelines
+- Check the [issues page](https://github.com/kilgamesh/ultima/issues) to find open issues to work on
+- Read [general contributions](https://github.com/kilgamesh/ultima/blob/main/CONTRIBUTING.md) for overall guidelines
 - Open a new issue if there is something new you want to implement before working on it
 
 **Before contributing to the UI, know that the env variables are missing. The missing env variables will cause and error on build. I am currently looking for a workaround.**
@@ -69,7 +69,7 @@ Next, create the **Pull Request** to the *main* branch.
 ### *main*
 This is the production branch.
 **This should be used for PR** and always **MUST** build.
-### [*migrate*](https://github.com/0hundred0/ultima/tree/migrate)
+### [*migrate*](https://github.com/kilgamesh/ultima/tree/migrate)
 This branch is the quotes API database branch. If you are looking to add additional quotes please visit the migrate branch.
 
 ---

@@ -1,7 +1,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/0hundred0/ultima">
+  <a href="https://github.com/kilgamesh/ultima">
     <img src="/public/images/ultima_logo.png" alt="Logo" width="90" height="90">
   </a>
 
@@ -13,11 +13,11 @@
     <a href="https://ultima.rest/"><strong>Check out the api »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/0hundred0/ultima-rest/discussions/1">Game request</a>
+    <a href="https://github.com/kilgamesh/ultima/discussions/1">Game request</a>
     ·
-    <a href="https://github.com/0hundred0/ultima-rest/issues">Report Bugs</a>
+    <a href="https://github.com/kilgamesh/ultima/issues">Report Bugs</a>
     ·
-    <a href="https://github.com/0hundred0/ultima-rest/issues">Request Additional Features</a>
+    <a href="https://github.com/kilgamesh/ultima/issues">Request Additional Features</a>
   </p>
 </p>
 
@@ -52,12 +52,12 @@ Consider showing some support if you use the api in your projects.
 
 ### Contributing
 
-- For new game requests please [add comments here](https://github.com/0hundred0/ultima-rest/discussions/1).
-- And for any bug or feature requests, [Submit a issue here](https://github.com/ultima-rest/ultima-rest/issues).
+- For new game requests please [add comments here](https://github.com/kilgamesh/ultima/discussions/1).
+- And for any bug or feature requests, [Submit a issue here](https://github.com/kilgamesh/ultima/issues).
 
-Also please see the [open issues](https://github.com/0hundred0/ultima-rest/issues) for a list of proposed features before submitting one.
+Also please see the [open issues](https://github.com/kilgamesh/ultima/issues) for a list of proposed features before submitting one.
 
-Join the [Discord](https://discord.gg/Qs7qJY3z)
+Join the [Discord](https://discord.gg/3vJvZTP42x)
 <br/>
 
 <!-- LICENSE -->
