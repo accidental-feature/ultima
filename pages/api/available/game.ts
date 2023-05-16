@@ -2,6 +2,7 @@
 import type { NextApiRequest, NextApiResponse } from 'next'
 import { supabase } from '../../../src/lib/supaclient'
 import _ from 'lodash';
+import { cors, runMiddleware } from '../random';
 /**
  * GET available/game?title=gameTitle
 */
@@ -10,6 +11,7 @@ export default async function handler(
   req: NextApiRequest,
   res: NextApiResponse<Number | String>
 ) {
+	await runMiddleware(req, res, cors);
 	const query = req.query;
 	let { title } = query;
 

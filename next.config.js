@@ -1,6 +1,5 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
   swcMinify: true,
   env: {
     EMAIL_PUBLIC_KEY: process.env.EMAIL_PUBLIC_KEY,

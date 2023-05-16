@@ -4,6 +4,7 @@ import { GameData } from '../../../src/lib/types'
 import { supabase } from '../../../src/lib/supaclient'
 import _ from 'lodash';
 import { getMultipleRandom } from '../../../src/utils/getMultipleRandom';
+import { runMiddleware, cors } from '../random';
 
 /**
  * GET quotes/random
@@ -14,6 +15,7 @@ export default async function handler(
   req: NextApiRequest,
   res: NextApiResponse<GameData[] | String>
 ) {
+	await runMiddleware(req, res, cors);
 	const query = req.query;
 	let { limit } = query;
 	let userLimit = 5;
