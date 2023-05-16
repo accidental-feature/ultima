@@ -4,12 +4,14 @@ import { GameData } from '../../../src/lib/types'
 import { supabase } from '../../../src/lib/supaclient'
 import _ from 'lodash';
 import { getSingleRandom } from '../../../src/utils/getSingleRandom';
+import { cors, runMiddleware } from '../random';
 // GET quote/character?name=characterName
 
 export default async function handler(
   req: NextApiRequest,
   res: NextApiResponse<GameData | String>
 ) {
+	await runMiddleware(req, res, cors);
 	const query = req.query;
 	let { name } = query;
 	if(name) {

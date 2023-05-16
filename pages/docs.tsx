@@ -148,7 +148,7 @@ const docs = () => {
 					<div ref={randomQuoteRef}>
 						<FetchExample 
 							head={'Get Random Quote'} 
-							id='random-quote' link='https://ultima.rest/api/quote/random' 
+							id='random-quote' link='https://ultima.rest/api/random' 
 							mb={'mb-28 sm:mb-32'}
 						/>
 					</div>
@@ -172,7 +172,7 @@ const docs = () => {
 					<div ref={randomQuotesRef}>
 						<FetchExample 
 							head={'Get 5 Random Quotes'} 
-							id='random-quotes' link='https://ultima.rest/api/quote/random' 
+							id='random-quotes' link='https://ultima.rest/api/quotes/random' 
 							mb={'mb-28 sm:mb-32'} multiple={true}
 						/>
 					</div>
