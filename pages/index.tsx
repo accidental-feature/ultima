@@ -21,7 +21,7 @@ export default function Home() {
 	const handleClick = async (e: React.MouseEvent<HTMLButtonElement>) => {
 		e.preventDefault();
 		setFetching(true)
-		await fetch('/api/quote/random')
+		await fetch('/api/random')
 			.then((res) => res.json())
 			.then((json) => {
 				setRandomQuote(json);
@@ -68,7 +68,7 @@ export default function Home() {
 					<Codeblock>
 						<div>
 							<span className="text-mako">fetch</span>
-							<span className="text-gold">{"('https://ultima.rest/api/quote/random')"}</span>
+							<span className="text-gold">{"('https://ultima.rest/api/random')"}</span>
 						</div>
 
 						<div className="ml-4">
