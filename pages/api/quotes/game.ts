@@ -29,13 +29,15 @@ export default async function handler(
 	if(title) {
 	 	try {
 			title = title.toString().replace(/\w+/g, _.capitalize);
-	
+			title = await title.split('+').join(' ');
+			title = await title.split('%20').join(' ');
+
 			const { 
 				data: games, error, status
 			} = await supabase
 				.from('Quotes')
 				.select(`*`)
-				.textSearch('title', title)
+				.textSearch('title', title.split(' ').join(' & '))
 			
 			if(error && status !== 406) {
 				throw error
