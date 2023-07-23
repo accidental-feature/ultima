@@ -1,13 +1,10 @@
 import { useState, useRef } from 'react'
-
-import Layout from '../components/layout/Layout'
-import Codeblock from '../components/ui/Codeblock'
-import { GameData } from '../src/lib/types'
-import Button from '../components/ui/Button'
-import Contributors from '../components/contributors/Contributors'
+import { GameData } from '@lib/types'
 import { 
-	headerStyles, headerTextStyle, sectionStyles, linkBaseStyles
-} from '../styles/tailwind'
+	headerStyles, headerTextStyle, sectionStyles
+} from '@styles/tailwind'
+import { Codeblock, Button, Layout } from '@components/.'
+import Contributors from '@/components/contributors/Contributors'
 
 
 export default function Home() {
@@ -15,8 +12,6 @@ export default function Home() {
 	const [isFetching, setFetching] = useState(false);
 	const [randomQuote, setRandomQuote] = useState<GameData | null>(null);
 	const scrollToRef = useRef<HTMLDivElement>(null);
-
-	const supa = <a href="http://supabase.com" className={`${linkBaseStyles} text-mako`} target="_blank" rel="noopener noreferrer">Supabase</a>
 
 	const handleClick = async (e: React.MouseEvent<HTMLButtonElement>) => {
 		e.preventDefault();
@@ -45,8 +40,8 @@ export default function Home() {
 				</h1>
 				<div className="py-10">
 					<h2 className="text-2xl">A free REST API for random video game quotes.</h2>
-					<p className="my-2 text-lg">
-						{supa} saved the day
+					<p className="my-2 text-lg font-medium ">
+						Quotes added every Thursday!
 					</p>
 				</div>
 				<Button filled={true} link='/docs'>Get Started</Button>

@@ -12,5 +12,5 @@ export const codeblockStyles = `
 	prism-code language-javascript 
 	rounded-md whitespace-pre-wrap
 	p-6 overflow-auto lg:text-base text-xs 
-	bg-slate-200 dark:bg-slate-800
+	bg-zinc-200 dark:bg-zinc-800
 `

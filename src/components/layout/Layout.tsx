@@ -1,11 +1,9 @@
 import Head from "next/head";
 import { useRouter } from "next/router";
 import { useState, useEffect } from "react";
-import Navigation from "./Navigation";
-import Footer from "./Footer";
-import { IMeta, _DocumentProps } from "../../src/lib/interfaces";
-import { fontColorStyles } from "../../styles/tailwind/text.styles";
-import SecretBtn from "./SecretBtn";
+import { Navigation, Footer, SecretBtn } from "@components/.";
+import { IMeta, _DocumentProps } from "@lib/types";
+import { fontColorStyles } from "@styles/tailwind/text.styles";
 
 const Layout = ({children, metaInfo}: _DocumentProps) => {
 	const [secretFound, setSecretFound] = useState(false);
@@ -28,7 +26,7 @@ const Layout = ({children, metaInfo}: _DocumentProps) => {
 	const currentPath = host + router.asPath;
 
 	const meta: IMeta = {
-		title: 'Ultima.rest - The Quote API for Gamers',
+		title: 'Ultima API - Quotes for Gamers',
 		image: `${host}/images/ultima_log.png`,
 		type: 'website',
 		description: 'A free RESTful API serving quotes gamers and developers alike.',
@@ -63,10 +61,10 @@ const Layout = ({children, metaInfo}: _DocumentProps) => {
 
 			<div className={
 				`${fontColorStyles} ${secretFound ? 'font-KH' : 'font-gg'} 
-				bg-gray-100 dark:bg-gray-900 relative`
+				bg-neutral-100 dark:bg-neutral-900 relative min-h-screen flex flex-col`
 			}>
 				<Navigation />
-				<main className="mx-auto">
+				<main className="grow">
 					{ children }
 				</main>
 				<Footer/>

@@ -13,7 +13,7 @@ const SecretBtn = ({ setSecretFound, secretFound }: Props) => {
 						? `
 						   fixed top-0 z-100 
 						   h-screen w-screen 
-						   bg-gradient-to-tr from-zinc-900 via-[#3c4685] to-[#1e162f]
+						   bg-gradient-to-tr from-zinc-900 via-[#1e162f] to-[#1e162f]
 						   hidden md:flex align-center justify-center ease-in
 						  `
 						: 'hidden md:inline fixed bottom-0.5 right-3.5'

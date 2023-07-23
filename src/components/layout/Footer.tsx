@@ -3,12 +3,12 @@ import { linkBaseStyles } from "../../styles/tailwind/text.styles";
 
 const Footer = () => {
 	return (
-		<footer className={`${containerBaseStyles} text-center  pb-5 mt-20`}>
+		<footer className={`${containerBaseStyles} text-center  pb-5 mt-16`}>
 			<p className="text-center">
 				<a className={`${linkBaseStyles} text-hundred`}
-				href="http://0hundred.dev"
+				href="https://kilgamesh.tech"
 					target="_blank" rel="noopener noreferrer">
-					0hundred0 {''}
+					Kilgamesh {''}
 				</a> 
 				© 2023 
 			</p>
