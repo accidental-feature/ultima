@@ -26,7 +26,7 @@ module.exports = {
 			},
 			colors: {
 				'cloud-kh': '#e63a22',
-				'gold': '#eeb12b',
+				'gold': '#d4af37',
 				'mako': '#5cdcba',
 				'pink': '#e780a9',
 				'pink-100': '#d881a9',

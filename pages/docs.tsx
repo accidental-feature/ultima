@@ -1,14 +1,14 @@
-import Layout from "../components/layout/Layout";
-import FetchExample from "../components/ui/FetchExample";
+import { FetchExample, Layout } from "@components/.";
 import { useRef } from "react";
 import Link from "next/link";
-import { headerTextStyle, sectionStyles } from "../styles/tailwind";
+import { headerTextStyle, sectionStyles } from "@styles/tailwind";
 const docs = () => {
 	const metaInfo = {
-		title: 'Ultima - Docs',
+		title: 'Ultima API - Docs',
 		description: 'Ultima Quotes documentation including API endpoints and use examples.',
 		image: '/images/ultima_logo.png'
 	}
+	// Refs for scrolling to specific sections
 	const randomQuoteCharRef = useRef<HTMLDivElement>(null);
 	const randomQuotesCharRef = useRef<HTMLDivElement>(null);
 	const randomQuoteRef = useRef<HTMLDivElement>(null);
@@ -17,6 +17,7 @@ const docs = () => {
 	const randomQuotesTitleRef = useRef<HTMLDivElement>(null);
 	const quoteById = useRef<HTMLDivElement>(null);
 
+	// Scroll to specific section
 	const scrollToElement = (id: string) => {
 		switch(id) {
 			case 'quote-by-id':

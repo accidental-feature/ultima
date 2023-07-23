@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { useState } from "react";
-import { containerBaseStyles, linkBaseStyles } from "../../styles/tailwind";
+import { containerBaseStyles, linkBaseStyles } from "@styles/tailwind";
 
 const Navigation = () => {
 	const [ hidden, setHidden ] = useState(true)

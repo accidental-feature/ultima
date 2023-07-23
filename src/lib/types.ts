@@ -10,3 +10,15 @@ export type GameData = {
 export type ChildProp = {
 	children?: JSX.Element | JSX.Element[]
 }
+
+export interface IMeta {
+	title: string;
+	image: string;
+	type: 'website';
+	description: string;
+}
+
+export interface _DocumentProps {
+	metaInfo?: Partial<IMeta>;
+	children: React.ReactNode;
+}

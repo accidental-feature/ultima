@@ -1,15 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import '../public/fonts/gg/ggsans.css';
+@import '../../public/fonts/gg/ggsans.css';
 
 @font-face {
 	font-family: KH;
-	src: url('../public/fonts/kh/KH.ttf');
+	src: url('../../public/fonts/kh/KH.ttf');
 }
 @font-face {
 	font-family: FFVII;
-	src: url('../public/fonts/ff/Final_Fantasy_VII.woff');
+	src: url('../../public/fonts/ff/Final_Fantasy_VII.woff');
 }
 
 html {
