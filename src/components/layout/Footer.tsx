@@ -1,3 +1,4 @@
+import Links from "../../data/links.json"
 import { containerBaseStyles } from "../../styles/tailwind/container.styles";
 import { linkBaseStyles } from "../../styles/tailwind/text.styles";
 
